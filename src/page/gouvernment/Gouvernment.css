@@ -1,0 +1,19 @@
+.topGouvernment {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+.topGouvernment img {
+    width: 200px;
+}
+
+.navGouvernment {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 10%;
+    background-color: #d3d2d8;
+}

@@ -9,7 +9,7 @@ import {faCaretLeft} from "@fortawesome/free-solid-svg-icons";
 import {faCaretRight} from "@fortawesome/free-solid-svg-icons";
 import {faHome} from "@fortawesome/free-solid-svg-icons";
 import {faSearch} from "@fortawesome/free-solid-svg-icons";
-import EyeFindLogo from '../img/Eyefind.info-GTA4.png';
+import EyeFindLogo from '../../img/Eyefind.info-GTA4.png';
 
 function Header() {
     return (

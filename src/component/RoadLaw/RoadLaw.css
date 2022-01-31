@@ -1,0 +1,25 @@
+.backgroundRoadLaw {
+    background-color: #d3d2d8;
+    padding: 0 15%;
+}
+
+.roadLaw {
+    background-color: #f0f0f0;
+    padding: 20px 5%;
+}
+
+.roadLaw h1 {
+    text-align: center;
+}
+
+.roadLaw h2 {
+    text-align: center;
+    padding-top: 20px;
+    text-decoration: underline;
+}
+
+.roadLaw img {
+    width: 200px;
+    display: block;
+    margin: 50px auto;
+}

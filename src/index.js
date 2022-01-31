@@ -2,11 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Home from "./Home";
+import Gouvernment from "./page/gouvernment/Gouvernment";
+import RoadLaw from "./component/RoadLaw/RoadLaw";
+import CivilLaw from "./component/CivilLaw/CivilLaw";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Home />
+    <CivilLaw />
   </React.StrictMode>,
   document.getElementById('root')
 );
