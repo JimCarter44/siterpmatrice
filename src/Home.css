@@ -1,0 +1,41 @@
+.homeDisplay {
+    padding: 30px 15%;
+}
+
+.randomPub {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pubBorder p {
+    background-color: #488bc2;
+    border-top: 2px solid #fbc210;
+    color: #f0f0f0;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px 0;
+    margin: 0;
+    width: 400px;
+}
+
+.picturePub {
+    background-color: #488bc2;
+    width: 396px;
+    height: 146px;
+    padding: 2px;
+}
+
+.randomInsertZone {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.randomInsert {
+    background-color: #fbc210;
+    height: 150px;
+    width: 250px;
+    padding: 2px;
+}
