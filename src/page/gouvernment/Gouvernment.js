@@ -1,6 +1,12 @@
 import './Gouvernment.css';
 import StateOfSanAndreas from '../../img/sansandreas.png';
 import UnitedStates from '../../img/etats-unis.png';
+import CivilLaw from "../../component/CivilLaw/CivilLaw";
+import RoadLaw from "../../component/RoadLaw/RoadLaw";
+import SanAndreasConstitution from "../../component/SanAndreasConstitution/SanAndreasConstitution";
+import UnitedStateConstitution from "../../component/UnitedStateConstitution/UnitedStateConstitution";
+
+
 
 function Gouvernment() {
     return(
@@ -11,10 +17,16 @@ function Gouvernment() {
                 <img src={UnitedStates} alt=""/>
             </div>
             <div className="navGouvernment">
-                <p>Annonce gouvernemental</p>
-                <p>Aide aux citoyens</p>
-                <p>Article de lois</p>
-                <p>Annuaire Services gouvernementaux</p>
+                <p>Code civil</p>
+                <p>Code de la route</p>
+                <p>Constitution de San Andreas</p>
+                <p>Constitution des États Unis d'Amérique</p>
+            </div>
+            <div className="displayGouv">
+                <CivilLaw />
+                <RoadLaw/>
+                <SanAndreasConstitution/>
+                <UnitedStateConstitution/>
             </div>
         </div>
     );

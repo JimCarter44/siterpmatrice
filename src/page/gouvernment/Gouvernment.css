@@ -15,5 +15,14 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 0 10%;
+    background-color: #f2f1f6;
+}
+
+.displayGouv {
+    padding: 30px 0;
     background-color: #d3d2d8;
+}
+
+.navGouvernment p:hover {
+    cursor: pointer;
 }

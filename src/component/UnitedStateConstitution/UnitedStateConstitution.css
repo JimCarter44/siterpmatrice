@@ -1,0 +1,25 @@
+.backgroundUSConstitution {
+    background-color: #d3d2d8;
+    padding: 0 15%;
+}
+
+.usConstitution {
+    background-color: #f0f0f0;
+    padding: 20px 5%;
+}
+
+.usConstitution h1 {
+    text-align: center;
+}
+
+.usConstitution h2 {
+    text-align: center;
+    padding-top: 20px;
+    text-decoration: underline;
+}
+
+.usConstitution img {
+    width: 300px;
+    display: block;
+    margin: 50px auto;
+}
