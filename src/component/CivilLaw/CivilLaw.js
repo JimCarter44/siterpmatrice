@@ -5,7 +5,7 @@ function CivilLaw() {
     return(
         <div className="backgroundCivilLaw">
             <div className="civilLaw">
-                <h1>CODE CIVIL DE L'ETAT DE SAN ANDREAS</h1>
+                <h1>CODE CIVIL<br/>DE L'ETAT DE SAN ANDREAS</h1>
                 <h2>Chapitre I - Généralités</h2>
                 <h3>Article 1 - Dommage civil</h3>
                 <p>1. Tout fait de l'homme causant un dommage à un autre oblige au responsable dudit fait de
@@ -139,6 +139,113 @@ function CivilLaw() {
                 </p>
                 <h2>Chapitre IV - Droit Politique</h2>
                 <h3>Article 1 - Droit Politiques</h3>
+                <p>1. Nul ne peut se voire priver de son droit de vote<br/>
+                    2. Une Cour peut retirer, après une condamnation pour un fait ou plusieurs puni(s) de plus
+                    d'un an de détention, retirer le droit d'un individu d'exercer une fonction Publique, et donc
+                    par extension: de se présenter à une élection.<br/>
+                    3. Le Vote est secret, privé, et libre. Contrevenir à cela serait une atteinte aux intérêts
+                    fondamentaux de la Nation.<br/>
+                    4. Le Vote et la candidature à une élection peuvent se faire par toute personne majeure
+                    (plus de 18 ans).
+                </p>
+                <h3>Article 2 - Association</h3>
+                <p>1. Au nom du Premier Amendement, le Gouvernement devra permettre à tous les
+                    mouvements légaux de s'exprimer, en veillant à leur Sécurité et à l'Ordre Public.
+                </p>
+                <h3>Article 3 - Droits médiatiques</h3>
+                <p>1. Les citoyens exerçant officiellement la profession de journaliste peuvent se prévaloir des
+                    autorisations suivantes.<br/>
+                    2. Les journalistes ont les autorisations primordiales suivantes :
+                    Autorisation d'approche, de stationnement, et d'émission d'ondes radio des véhicules et des
+                    journalistes, près et à l'extérieur des barrages posés par les forces de l'ordre ;
+                    Autorisation d'évaluer un nombre total des otages présents, s'il y en a ;
+                    Autorisation d'évaluer un nombre total des braqueurs, preneurs d'otage, malfaiteurs
+                    présents ;
+                    Autorisation d'interviewer des responsables des forces de police présents et de demander
+                    des informations sur la situation en cours (mais pas forcément d'en recevoir en retour) ;
+                    Autorisation de suivre et d'émettre sur une course-poursuite de véhicules à quatre ou deux
+                    roues, en hélicoptère uniquement et à une altitude minimale de 150 mètres de haut.<br/><br/>
+                    3. Les journalistes ont les autorisations secondaires suivantes :<br/>
+                    Autorisation d'indiquer à l'antenne la survenance d'un assaut lorsque celui-ci commence et
+                    non pas avant ;<br/>
+                    Autorisation d'évaluer un nombre total des membres de forces de l'ordre présents sur
+                    l'intégralité de la zone ;<br/>
+                    Autorisation de survol par un hélicoptère d'une entreprise médiatique à une altitude de plus
+                    de 150 mètres des zones de braquage, de prise d'otage, et d'autres opérations policières.<br/><br/>
+                    4. Les journalistes ont les interdictions suivantes :<br/>
+                    Interdiction de franchissement de barrage, quelles qu'en soient les raisons ;<br/>
+                    Interdiction de donner la position et le nombre de snipers postés ;<br/>
+                    Interdiction de donner la position et le nombre des membres et/ou des équipes du SWAT
+                    impliqués dans un assaut futur.<br/><br/>
+                    5. Un cas de nécessité absolue se définit comme une situation d'une gravité extrême,
+                    présentant de très fortes probabilités de nuire à l'intégrité physique d'une grande partie des
+                    intervenants (civils, forces de l'ordre). Dans un cas de nécessité absolue, les autorisations
+                    secondaires (cf 3.) disparaissent et sont considérées comme des interdictions, à condition
+                    que ce soit un haut-responsable des forces de l'ordre qui en prenne préalablement la
+                    décision de manière express.
+                </p>
+                <h2>Chapitre V - Droit du travail et de l'entreprise</h2>
+                <h3>Article 1 - Définitions générales</h3>
+                <p>1. Le Travail est l'apport convenu d'une contribution à un projet, une tâche, une mission, ou
+                    une production se faisant parfois en échange d'une contrepartie. Il se doit d'être déclaré et
+                    contrôlé.<br/>
+                    L'assistance, et la production personnelle, ne se déclarent pas. L'entraide au sein d'une
+                    famille, ou d'un cercle de proches (amis et/ou famille) ne se déclare pas non plus.
+                    Le Travail se fait donc en Entreprise si il est rémunéré, ou en Association si il est bénévole. Il
+                    peut également se faire en Institution (notamment pour les fonctionnaires), il est en ce cas
+                    rémunéré également.<br/>
+                    Note: dans ce chapitre, les Institutions seront soumises à la même réglementation que les
+                    entreprises, sauf en matière de concurrence, puisqu'elles servent l'intérêt de la Justice, de la
+                    Nation, de la Loi, et de la Société.<br/>
+                    2. L'entreprise est formée après approbation du Gouvernement, elle dispose d'un capital,
+                    d'objectifs, d'une structure réglementée.<br/>
+                    3. La Compagnie regroupe plusieurs entreprises, elle est formée sur approbation du
+                    Gouvernement.<br/>
+                    4. L'Association est la formation autorisée par le Gouvernement, d'un groupe de personnes
+                    (au moins quatre) œuvrant et se réunissant autour d'un but commun et spécifique, sans but
+                    lucratif.
+                </p>
+                <h3>Article 2 - Le Gouvernement et le travail</h3>
+                <p>1. Le Gouvernement peut mettre en place un système de "licences" a acheter (à un prix fixe
+                    et égal pour tous) pour pouvoir former une Entreprise ou une Compagnie.<br/>
+                    2. Le Gouvernement s'assure, par le biais de contrôles, du respect de la libre concurrence,
+                    de l'égalité entre entreprises, et des bonnes conditions de travail.<br/>
+                    3. La création d'une entreprise, d'une compagnie, ou d'une association se fait sur Contrat
+                    Public. Celui-ci mentionne les caractéristiques de la personne morale ainsi créée, ses
+                    règles, et ses engagements</p>
+                <h3>Article 3 - Condition de travail</h3>
+                <p>1. Le travail est compatible avec la vie privée, l'équilibre psychologique et physique, et
+                    l'intérêt du Travailleur.<br/>
+                    2. Il se fait de manière sécurisée, respectueuse, digne, et mutuellement profitable.<br/>
+                    3. Au travail, la différenciation est faite entre les personnes selon et uniquement selon leur
+                    travail. Dès lors les embauches, licenciement, et autres mesures de gestion du personnel
+                    seront motivées par l'efficacité de l'employé, et non par sa relation avec l'employeur, ou un
+                    motif discriminant (prévu dans le Code Pénal).
+                </p>
+                <h2>Chapitre VI - Droit de la Famille & de la Propriété</h2>
+                <h3>Article 1 - Contrat</h3>
+                <p>1. Le Mariage est un contrat Public. Il est l'association reconnue par le Gouvernement et/ou
+                    Mairie, entre deux personnes physiques.<br/>
+                    2. Il est motivé par le désir de vivre en commun, de s'aimer, et de former une famille.<br/>
+                    3. La Polygamie est permise. Nul ne peut célébrer un mariage avant la signature officielle du
+                    “Contrat Public de Mariage” (il s'agirait sinon d'une usurpation du titre de Maire).<br/>
+                    4. Le Contrat de Mariage implique des clauses définies par la Mairie/Gouvernement.
+                </p>
+                <h3>Article 2 - La vie de Famille</h3>
+                <p>1. Les époux se doivent de vivre ensemble, de ne pas entretenir une relation amoureuse
+                    et/ou sexuelle extra conjugale, de se respecter, s'assister, et s'écouter mutuellement.<br/>
+                    2. Tout enfant doit respect, écoute, et assistance à ses parents, et vice versa.
+                </p>
+                <h3>Article 3 - La Propriété</h3>
+                <p>1. La Propriété est un bien, une donnée, ou un animal de compagnie.<br/>
+                    2. Le seul moyen d'acquérir un bien est de se le faire donner ou vendre par son propriétaire.<br/>
+                    3. Si elle n'a pas de propriétaire, une propriété est au Gouvernement.<br/>
+                    4. L'usage, l'exploitation, l'entretien, l'ouverture, la fermeture, l'accès, la vente, et l'achat de
+                    propriétés sont libres tant que celles-ci respectent la Vie, la Loi, la Justice, la Dignité, et la
+                    Personne.<br/>
+                    5. Il est impossible de posséder (sauf pour le Gouvernement) un bien de l'État, de la Nation,
+                    ou un bien Public telle que la Voie Publique, un Péage, une Institution, ou un
+                    bien/donnée/élément reconnu d'intérêt public.</p>
                 <img src={UnitedStateOfSanAdreas} alt=""/>
             </div>
         </div>

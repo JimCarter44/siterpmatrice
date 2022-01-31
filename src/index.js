@@ -5,10 +5,11 @@ import reportWebVitals from './reportWebVitals';
 import Gouvernment from "./page/gouvernment/Gouvernment";
 import RoadLaw from "./component/RoadLaw/RoadLaw";
 import CivilLaw from "./component/CivilLaw/CivilLaw";
+import SanAndreasConstitution from "./component/SanAndreasConstitution/SanAndreasConstitution";
 
 ReactDOM.render(
   <React.StrictMode>
-    <CivilLaw />
+    <SanAndreasConstitution />
   </React.StrictMode>,
   document.getElementById('root')
 );
