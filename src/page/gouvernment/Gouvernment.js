@@ -19,14 +19,14 @@ function Gouvernment() {
             </div>
             <BrowserRouter>
                 <div className="navGouvernment">
-                    <NavLink exact to="/CivilLaw" className="navLinkCss">Code civil</NavLink>
+                    <NavLink exact to="/" className="navLinkCss">Code civil</NavLink>
                     <NavLink exact to="/RoadLaw" className="navLinkCss">Code de la route</NavLink>
                     <NavLink exact to="/SanAndreasConstitution" className="navLinkCss">Constitution de San Andreas</NavLink>
                     <NavLink exact to="/UnitedStateConstitution" className="navLinkCss">Constitution des États Unis d'Amérique</NavLink>
                 </div>
                 <div className="displayGouv">
                     <Routes>
-                        <Route path="/CivilLaw" element={<CivilLaw/>}/>
+                        <Route path="/" element={<CivilLaw/>}/>
                         <Route path="/RoadLaw" element={<RoadLaw/>}/>
                         <Route path="/SanAndreasConstitution" element={<SanAndreasConstitution/>}/>
                         <Route path="/UnitedStateConstitution" element={<UnitedStateConstitution/>}/>
