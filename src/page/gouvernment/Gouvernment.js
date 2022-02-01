@@ -5,7 +5,7 @@ import CivilLaw from "../../component/CivilLaw/CivilLaw";
 import RoadLaw from "../../component/RoadLaw/RoadLaw";
 import SanAndreasConstitution from "../../component/SanAndreasConstitution/SanAndreasConstitution";
 import UnitedStateConstitution from "../../component/UnitedStateConstitution/UnitedStateConstitution";
-import {NavLink, Route, Routes} from "react-router-dom";
+import {BrowserRouter, NavLink, Route, Routes} from "react-router-dom";
 
 
 
@@ -14,23 +14,25 @@ function Gouvernment() {
         <div>
             <div className="topGouvernment">
                 <img src={StateOfSanAndreas} alt=""/>
-                <h1>Etat de San Andreas</h1>
+                <h1>Recueil des lois<br/>de l'État de San Andreas</h1>
                 <img src={UnitedStates} alt=""/>
             </div>
-            <div className="navGouvernment">
-                <NavLink exact to="/CivilLaw" id={"CivilLaw"}>Code civil</NavLink>
-                <NavLink exact to="/RoadLaw" id={"RoadLaw"}>Code de la route</NavLink>
-                <NavLink exact to="/SanAndreasConstitution" id={"SanAndreasConstitution"}>Constitution de San Andreas</NavLink>
-                <NavLink exact to="/UnitedStateConstitution" id={"UnitedStateConstitution"}>Constitution des États Unis d'Amérique</NavLink>
-            </div>
-            <div className="displayGouv">
-                <Routes>
-                    <Route path="/CivilLaw" element={<CivilLaw/>}/>
-                    <Route path="/RoadLaw" element={<RoadLaw/>}/>
-                    <Route path="/SanAndreasConstitution" element={<SanAndreasConstitution/>}/>
-                    <Route path="/UnitedStateConstitution" element={<UnitedStateConstitution/>}/>
-                </Routes>
-            </div>
+            <BrowserRouter>
+                <div className="navGouvernment">
+                    <NavLink exact to="/CivilLaw" className="navLinkCss">Code civil</NavLink>
+                    <NavLink exact to="/RoadLaw" className="navLinkCss">Code de la route</NavLink>
+                    <NavLink exact to="/SanAndreasConstitution" className="navLinkCss">Constitution de San Andreas</NavLink>
+                    <NavLink exact to="/UnitedStateConstitution" className="navLinkCss">Constitution des États Unis d'Amérique</NavLink>
+                </div>
+                <div className="displayGouv">
+                    <Routes>
+                        <Route path="/CivilLaw" element={<CivilLaw/>}/>
+                        <Route path="/RoadLaw" element={<RoadLaw/>}/>
+                        <Route path="/SanAndreasConstitution" element={<SanAndreasConstitution/>}/>
+                        <Route path="/UnitedStateConstitution" element={<UnitedStateConstitution/>}/>
+                    </Routes>
+                </div>
+            </BrowserRouter>
         </div>
     );
 }
