@@ -5,6 +5,7 @@ import CivilLaw from "../../component/CivilLaw/CivilLaw";
 import RoadLaw from "../../component/RoadLaw/RoadLaw";
 import SanAndreasConstitution from "../../component/SanAndreasConstitution/SanAndreasConstitution";
 import UnitedStateConstitution from "../../component/UnitedStateConstitution/UnitedStateConstitution";
+import {NavLink, Route, Routes} from "react-router-dom";
 
 
 
@@ -17,16 +18,18 @@ function Gouvernment() {
                 <img src={UnitedStates} alt=""/>
             </div>
             <div className="navGouvernment">
-                <p>Code civil</p>
-                <p>Code de la route</p>
-                <p>Constitution de San Andreas</p>
-                <p>Constitution des États Unis d'Amérique</p>
+                <NavLink exact to="/CivilLaw" id={"CivilLaw"}>Code civil</NavLink>
+                <NavLink exact to="/RoadLaw" id={"RoadLaw"}>Code de la route</NavLink>
+                <NavLink exact to="/SanAndreasConstitution" id={"SanAndreasConstitution"}>Constitution de San Andreas</NavLink>
+                <NavLink exact to="/UnitedStateConstitution" id={"UnitedStateConstitution"}>Constitution des États Unis d'Amérique</NavLink>
             </div>
             <div className="displayGouv">
-                <CivilLaw />
-                <RoadLaw/>
-                <SanAndreasConstitution/>
-                <UnitedStateConstitution/>
+                <Routes>
+                    <Route path="/CivilLaw" element={<CivilLaw/>}/>
+                    <Route path="/RoadLaw" element={<RoadLaw/>}/>
+                    <Route path="/SanAndreasConstitution" element={<SanAndreasConstitution/>}/>
+                    <Route path="/UnitedStateConstitution" element={<UnitedStateConstitution/>}/>
+                </Routes>
             </div>
         </div>
     );
