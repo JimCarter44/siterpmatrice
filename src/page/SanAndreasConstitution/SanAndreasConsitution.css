@@ -1,25 +1,30 @@
-.backgroundRoadLaw {
+.backgroundSAConstitution {
     background-color: #d3d2d8;
-    padding: 0 15%;
+    padding: 20px 15%;
 }
 
-.roadLaw {
+.saConstitution {
     background-color: #f0f0f0;
     padding: 20px 5%;
 }
 
-.roadLaw h1 {
+.saConstitution h1 {
     text-align: center;
 }
 
-.roadLaw h2 {
+.saConstitution h2 {
     text-align: center;
     padding-top: 20px;
     text-decoration: underline;
 }
 
-.roadLaw img {
+.saConstitution img {
     width: 200px;
     display: block;
     margin: 50px auto;
+}
+
+.quote {
+    font-style: italic;
+    padding: 0 10%;
 }

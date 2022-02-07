@@ -5,9 +5,6 @@ import {faHamburger} from "@fortawesome/free-solid-svg-icons";
 import {faDollarSign} from "@fortawesome/free-solid-svg-icons";
 import {faShuttleVan} from "@fortawesome/free-solid-svg-icons";
 import {faShoppingBag} from "@fortawesome/free-solid-svg-icons";
-import {faCaretLeft} from "@fortawesome/free-solid-svg-icons";
-import {faCaretRight} from "@fortawesome/free-solid-svg-icons";
-import {faHome} from "@fortawesome/free-solid-svg-icons";
 import {faSearch} from "@fortawesome/free-solid-svg-icons";
 import EyeFindLogo from '../../img/Eyefind.info-GTA4.png';
 
@@ -15,20 +12,6 @@ function Header() {
     return (
         <div className="Header">
             <header className="headHeader">
-                <div className="searchTopBar">
-                    <div className="bnButton">
-                        <div className="bnButtonOne">
-                            <FontAwesomeIcon icon={faCaretLeft} className="backButton"/>
-                        </div>
-                        <div className="bnButtonTwo">
-                            <FontAwesomeIcon icon={faCaretRight} className="nextButton"/>
-                        </div>
-                    </div>
-                    <div className="homeZone">
-                        <FontAwesomeIcon icon={faHome} className="homeButton"/>
-                    </div>
-                    <input className="searchBar"/>
-                </div>
                 <div className="headTopBar">
                     <div className="upTopBar">
                         <img src={EyeFindLogo} alt="eyeFindLogo"/>

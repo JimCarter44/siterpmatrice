@@ -1,0 +1,65 @@
+.rentalPDM {
+    background-image: url("../../img/bgPDM.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 20%;
+}
+
+.headPDM {
+    border-bottom: 7px solid #841f1f ;
+    border-top: 7px solid #760000;
+    background-image: url("../../img/imgPDMHeadBackground.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    overflow: hidden;
+}
+
+.headPDM img {
+    height: 500px;
+}
+
+.filterDisplay {
+    min-height: 100vh;
+    margin: 0;
+    background-color: #260101;
+    border: 3px solid #841f1f;
+    z-index: 10;
+    position: relative;
+    top: -50px;
+}
+
+.headFilterDisplay {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+
+.headFilterDisplay h1 {
+    color: #f2f1f6;
+    font-weight: 500;
+    margin: 0;
+}
+
+#filterTypePDM, #filterPDM {
+    color: #f2f1f6;
+    font-size: 1.2em;
+    font-weight: 400;
+    background-color: #841f1f;
+    border-radius: 5px;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    border: 1px solid #760000;
+}
+
+.optionCSSPDM {
+    background-color: #841f1f;
+}
+
+
+.optionCSSPDM:checked {
+    background-color: #760000;
+}
+

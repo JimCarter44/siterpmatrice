@@ -26,6 +26,11 @@
     padding: 2px;
 }
 
+.picturePub:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
 .randomInsertZone {
     display: flex;
     flex-direction: row;
@@ -38,4 +43,9 @@
     height: 150px;
     width: 250px;
     padding: 2px;
+}
+
+.randomInsert:hover {
+    cursor: pointer;
+    opacity: 0.6;
 }

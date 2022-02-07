@@ -1,24 +1,24 @@
-.backgroundCivilLaw {
+.backgroundRoadLaw {
     background-color: #d3d2d8;
-    padding: 0 15%;
+    padding: 20px 15%;
 }
 
-.civilLaw {
+.roadLaw {
     background-color: #f0f0f0;
     padding: 20px 5%;
 }
 
-.civilLaw h1 {
+.roadLaw h1 {
     text-align: center;
 }
 
-.civilLaw h2 {
+.roadLaw h2 {
     text-align: center;
     padding-top: 20px;
     text-decoration: underline;
 }
 
-.civilLaw img {
+.roadLaw img {
     width: 200px;
     display: block;
     margin: 50px auto;

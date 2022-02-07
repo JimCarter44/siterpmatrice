@@ -1,0 +1,79 @@
+.searchTopBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #d3d2d8;
+    height: 40px;
+    z-index: 2;
+    padding: 0 15%;
+    align-items: center;
+}
+
+.searchTopBar button {
+    background-color: #f0f0f0;
+}
+
+.bnButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.bnButtonOne {
+    background-color: #aeadb2;
+    width: 30px;
+    text-align: center;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #56555a;
+}
+
+.bnButtonTwo {
+    background-color: #aeadb2;
+    width: 30px;
+    text-align: center;
+    border-radius: 0 5px 5px 0;
+    border: 1px solid #56555a;
+}
+
+.backButton, .nextButton {
+    font-size: 2em;
+    height: 25px;
+    color: #56555a;
+}
+
+.homeZone {
+    background-color: #f2f1f6;
+    height: 25px;
+    width: 30px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #56555a;
+    cursor: pointer;
+}
+
+.homeButton {
+    color: #56555a;
+    font-size: 1.3em;
+    height: 25px;
+}
+
+.zoneSearch {
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+}
+
+.searchBar {
+    width: 85%;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid #56555a;
+    color: #56555a;
+    font-size: 1.2em;
+    padding-left: 10px;
+}
+
+.hiddenNav {
+    display: none;
+}
