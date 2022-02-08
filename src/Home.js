@@ -4,6 +4,8 @@ import EncartLaw from "./img/EncartLaw.jpg";
 import EncartPDM from "./img/EncartPDM.jpg";
 import EncartDigitalDen from "./img/EncartDigitalDen.jpg";
 import EncartLuckyPlucker from "./img/EncartLuckyPlucker.jpg";
+import EncartYouTool from "./img/EncartYouTool.jpg";
+import EncartDonCountryStorel from "./img/EncartDonCountryStorel.jpg";
 import {Link} from "react-router-dom";
 import Navigator from "./component/Navigator/Navigator";
 
@@ -32,10 +34,10 @@ function Home() {
                     <Link to="/pdm"><img src={EncartPDM} alt="Concession PDM" className="randomInsert"/></Link>
                     <img src={EncartDigitalDen} alt="Digital Den" className="randomInsert"/>
                     <img src={EncartLuckyPlucker} alt="Lucky Plucker" className="randomInsert"/>
-                    <img src="" alt="" className="randomInsert"/>
+                    <img src={EncartYouTool} alt="YouTool" className="randomInsert"/>
                 </div>
                 <div className="randomInsertZone">
-                    <img src="" alt="" className="randomInsert"/>
+                    <img src={EncartDonCountryStorel} alt="DonCountryStore" className="randomInsert"/>
                     <img src="" alt="" className="randomInsert"/>
                     <img src="" alt="" className="randomInsert"/>
                     <img src="" alt="" className="randomInsert"/>
