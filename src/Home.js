@@ -6,6 +6,10 @@ import EncartDigitalDen from "./img/EncartDigitalDen.jpg";
 import EncartLuckyPlucker from "./img/EncartLuckyPlucker.jpg";
 import EncartYouTool from "./img/EncartYouTool.jpg";
 import EncartDonCountryStorel from "./img/EncartDonCountryStorel.jpg";
+import EncartSeaWord from "./img/EncartSeaWord.png";
+import EncartUpNAtom from "./img/EncartUpNAtom.jpg";
+import EncartBeanMachine from  "./img/EncartBeanMachine.jpg";
+import EncartFleeca from "./img/EncartFleeca.jpg";
 import {Link} from "react-router-dom";
 import Navigator from "./component/Navigator/Navigator";
 
@@ -38,10 +42,10 @@ function Home() {
                 </div>
                 <div className="randomInsertZone">
                     <img src={EncartDonCountryStorel} alt="DonCountryStore" className="randomInsert"/>
-                    <img src="" alt="" className="randomInsert"/>
-                    <img src="" alt="" className="randomInsert"/>
-                    <img src="" alt="" className="randomInsert"/>
-                    <img src="" alt="" className="randomInsert"/>
+                    <img src={EncartSeaWord} alt="SeaWord" className="randomInsert"/>
+                    <img src={EncartUpNAtom} alt="UpNAtom" className="randomInsert"/>
+                    <img src={EncartBeanMachine} alt="BeanMachine" className="randomInsert"/>
+                    <img src={EncartFleeca} alt="Fleeca" className="randomInsert"/>
                 </div>
             </div>
         </div>
