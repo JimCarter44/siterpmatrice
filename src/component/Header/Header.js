@@ -22,7 +22,7 @@ function Header() {
                         <div className="searchZone">
                             <FontAwesomeIcon icon={faSearch} className="searchIconFont"/>
                         </div>
-                        <input className="searchDownBar"/>
+                        <input type="text" className="searchDownBar"/>
                     </div>
                 </div>
                 <nav className="navMenu">
