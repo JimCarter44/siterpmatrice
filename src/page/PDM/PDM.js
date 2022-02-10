@@ -5,7 +5,7 @@ import imgPDMHead from "../../img/imgPDMHead.png";
 function PDM() {
     return(
       <div>
-          <Navigator value="www.premuimdeluxemotorsport.com" />
+          <Navigator value="www.premuimdeluxemotorsport.info" />
           <div className="headPDM">
               <img src={imgPDMHead} alt=""/>
           </div>

@@ -1,7 +1,7 @@
 import './Navigator.css';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faCaretLeft, faCaretRight, faHome} from "@fortawesome/free-solid-svg-icons";
-import {NavLink} from "react-router-dom";
+import {Link} from "react-router-dom";
 /*
 let searchBarValue = document.getElementsByClassName('searchBar');
 let pdmLink = document.getElementsByClassName('pdmLink');
@@ -24,16 +24,16 @@ function Navigator(props) {
                 </div>
             </div>
             <div className="homeZone">
-                <NavLink to="/"><FontAwesomeIcon icon={faHome} className="homeButton"/></NavLink>
+                <Link to="/"><FontAwesomeIcon icon={faHome} className="homeButton"/></Link>
             </div>
             <input type="text" className="searchBar" defaultValue={props.value}/>
             <div className="hiddenNav">
-                <NavLink to="/pdm" className="pdmLink"/>
-                <NavLink to="/" className="homeLink"/>
-                <NavLink to="/gouvernment/civillaw" className="civilLawLink"/>
-                <NavLink to="/gouvernment/roadlaw" className="roadLawLink"/>
-                <NavLink to="/gouvernment/sanandreasconstitution" className="saConstitutionLink"/>
-                <NavLink to="/gouvernment/unitedstateconstitution" className="usConstitutionLink"/>
+                <Link to="/pdm" className="pdmLink"/>
+                <Link to="/" className="homeLink"/>
+                <Link to="/gouvernment/civillaw" className="civilLawLink"/>
+                <Link to="/gouvernment/roadlaw" className="roadLawLink"/>
+                <Link to="/gouvernment/sanandreasconstitution" className="saConstitutionLink"/>
+                <Link to="/gouvernment/unitedstateconstitution" className="usConstitutionLink"/>
             </div>
         </div>
     );

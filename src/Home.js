@@ -36,16 +36,16 @@ function Home() {
                 <div className="randomInsertZone">
                     <Link to="/gouvernment/civillaw"><img src={EncartLaw} alt="Recueil des lois de l'état de San Andreas" className="randomInsert"/></Link>
                     <Link to="/pdm"><img src={EncartPDM} alt="Concession PDM" className="randomInsert"/></Link>
-                    <img src={EncartDigitalDen} alt="Digital Den" className="randomInsert"/>
-                    <img src={EncartLuckyPlucker} alt="Lucky Plucker" className="randomInsert"/>
-                    <img src={EncartYouTool} alt="YouTool" className="randomInsert"/>
+                    <Link to="/digitalden"><img src={EncartDigitalDen} alt="Digital Den" className="randomInsert"/></Link>
+                    <Link to="/luckyplucker"><img src={EncartLuckyPlucker} alt="Lucky Plucker" className="randomInsert"/></Link>
+                    <Link to="/youtool"><img src={EncartYouTool} alt="YouTool" className="randomInsert"/></Link>
                 </div>
                 <div className="randomInsertZone">
-                    <img src={EncartDonCountryStorel} alt="DonCountryStore" className="randomInsert"/>
-                    <img src={EncartSeaWord} alt="SeaWord" className="randomInsert"/>
-                    <img src={EncartUpNAtom} alt="UpNAtom" className="randomInsert"/>
-                    <img src={EncartBeanMachine} alt="BeanMachine" className="randomInsert"/>
-                    <img src={EncartFleeca} alt="Fleeca" className="randomInsert"/>
+                    <Link to="/doncountrystore"><img src={EncartDonCountryStorel} alt="DonCountryStore" className="randomInsert"/></Link>
+                    <Link to="/seaword"><img src={EncartSeaWord} alt="SeaWord" className="randomInsert"/></Link>
+                    <Link to="/upnatom"><img src={EncartUpNAtom} alt="UpNAtom" className="randomInsert"/></Link>
+                    <Link to="/beanmachine"><img src={EncartBeanMachine} alt="BeanMachine" className="randomInsert"/></Link>
+                    <Link to="/fleeca"><img src={EncartFleeca} alt="Fleeca" className="randomInsert"/></Link>
                 </div>
             </div>
         </div>
