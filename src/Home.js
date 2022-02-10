@@ -10,6 +10,9 @@ import EncartSeaWord from "./img/EncartSeaWord.png";
 import EncartUpNAtom from "./img/EncartUpNAtom.jpg";
 import EncartBeanMachine from  "./img/EncartBeanMachine.jpg";
 import EncartFleeca from "./img/EncartFleeca.jpg";
+import PubToilerCleaner from "./img/PubSponsoToilerCleaner.jpg";
+import PubProp43 from "./img/PubSponsoProp43.jpg";
+import PubEgoChaser from "./img/PubSponsoEgoChaser.jpg";
 import {Link} from "react-router-dom";
 import Navigator from "./component/Navigator/Navigator";
 
@@ -22,15 +25,15 @@ function Home() {
                 <div className="randomPub">
                     <div className="pubBorder">
                         <p>PUBLICITÉ SPONSORISÉE</p>
-                        <img src="" alt="" className="picturePub"/>
+                        <img src={PubToilerCleaner} alt="Toiler Cleaner" className="picturePub"/>
                     </div>
                     <div className="pubBorder">
                         <p>PUBLICITÉ SPONSORISÉE</p>
-                        <img src="" alt="" className="picturePub"/>
+                        <img src={PubProp43} alt="Prop43" className="picturePub"/>
                     </div>
                     <div className="pubBorder">
                         <p>PUBLICITÉ SPONSORISÉE</p>
-                        <img src="" alt="" className="picturePub"/>
+                        <img src={PubEgoChaser} alt="EgoChaser" className="picturePub"/>
                     </div>
                 </div>
                 <div className="randomInsertZone">
