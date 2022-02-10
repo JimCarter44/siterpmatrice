@@ -1,0 +1,85 @@
+.backgroundSea {
+    background-image: url("../../../src/img/backgroungSea.jpg");
+    min-height: 100vh;
+}
+
+#headerSeaWord {
+    background-image: url("../../../src/img/mer-background.jpg");
+    background-size: cover;
+    height: 300px;
+}
+
+#headerSeaWord img {
+    position: absolute;
+    top: 150px;
+    width: 500px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logoSeaWord {
+    width: 500px;
+}
+
+#mainSeaWord {
+    background-color: #d3d2d8;
+    width: 70%;
+    min-height: 100vh;
+    margin: auto;
+    padding: 100px 0;
+}
+
+#mainSeaWord h1 {
+    text-align: center;
+    font-size: 3em;
+    color: #0e7d9c;
+    margin-bottom: 100px;
+}
+
+.productLeft {
+    background-color: #f2f1f6;
+    border-radius: 20px;
+    margin: 100px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1000px;
+    position: relative;
+    left: -100px;
+    border: 1px solid #56555a;
+    -webkit-box-shadow: inset 5px 5px 10px 5px #B3B3B3;
+    box-shadow: inset 5px 5px 10px 5px #B3B3B3;
+}
+
+.productRight {
+    background-color: #f2f1f6;
+    border-radius: 20px;
+    margin: 100px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    right: -100px;
+    border: 1px solid #56555a;
+    -webkit-box-shadow: inset -5px 5px 10px 5px #B3B3B3;
+    box-shadow: inset -5px 5px 10px 5px #B3B3B3;
+}
+
+.productLeft img {
+    width: 400px;
+}
+
+.productRight img{
+    width: 400px;
+}
+
+.descriptProductSea {
+    margin: auto 25px;
+    height: 250px;
+}
+
+.descriptProductSea h2 {
+    margin: 0;
+}

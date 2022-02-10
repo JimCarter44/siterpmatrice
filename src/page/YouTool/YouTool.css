@@ -1,0 +1,20 @@
+.pageExemple {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.pageExemple a {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 1300px;
+    align-items: center;
+    border-bottom: 1px solid #aeadb2;
+    text-decoration: none;
+    color: #56555a;
+}
+
+.pageExemple img {
+    margin-right: 30px;
+}

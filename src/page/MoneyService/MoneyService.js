@@ -4,11 +4,13 @@ import EncartLaw from "../../img/EncartLaw.jpg";
 import EncartFleeca from "../../img/EncartFleeca.jpg";
 import EncartProp43 from "../../img/EncartProp43.jpg";
 import {Link} from "react-router-dom";
+import Header from "../../component/Header/Header";
 
 function MoneyService() {
     return(
         <div>
             <Navigator value="www.argent-services.info" />
+            <Header />
             <div className="pageExemple">
                 <Link to="/gouvernment/civillaw">
                     <img src={EncartLaw} alt="Recueil des lois de l'état de San Andreas" className="randomInsert"/>
