@@ -19,6 +19,7 @@ import MoneyService from "./page/MoneyService/MoneyService";
 import RestaurantBar from "./page/RestaurantBar/RestaurantBar";
 import MediaEntertainment from "./page/MediaEntertainment/MediaEntertainment";
 import Fleeca from "./page/Fleeca/Fleeca";
+import LSToday from "./page/LSToday/LSToday";
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
           <Route path="/restaurantbar" element={<RestaurantBar />} />
           <Route path="/mediaentertainement" element={<MediaEntertainment />} />
           <Route path="/fleeca" element={<Fleeca />} />
+          <Route path="/lstoday" element={<LSToday/>} />
       </Routes>
     </BrowserRouter>
   );
