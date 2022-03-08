@@ -1,0 +1,81 @@
+.blockVehicles {
+    border: 5px solid #841f1f;
+    border-radius: 10px;
+    width: 400px;
+    margin: 50px 10px;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.99);
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.99);
+}
+
+.titleBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    background-color: #841f1f;
+    height: 45px;
+}
+
+.titleBlock h4 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.titleBlock p, .titleBlock svg {
+    margin: auto 5px;
+}
+
+.blockImg {
+    width: 400px;
+}
+
+.detailsBlock {
+    background-color: black;
+    padding: 10px;
+    min-height: 122px;
+}
+
+.detailsBlock p {
+    font-weight: bold;
+    margin: 10px 5px;
+}
+
+.placesBlock {
+    display: flex;
+    flex-direction: row;
+}
+
+.perfsBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+}
+
+.rightBlock {
+    text-align: right;
+}
+
+.brand {
+    width: 100px;
+}
+
+.detailsBlock h3 {
+    color: white;
+    margin: 8px 10px;
+    font-size: 1.5em;
+}
+
+.lastDetails {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.blockVehicles h2 {
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    background-color: #841f1f;
+    margin: 0;
+}

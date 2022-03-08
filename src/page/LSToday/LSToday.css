@@ -1,0 +1,41 @@
+#navUp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+}
+
+header img {
+    height: 100px;
+    padding-left: 50px;
+}
+
+#dateToday {
+    margin: auto 50px;
+}
+
+nav {
+    background-color: #bd0a31;
+    border-top: 7px solid #00276a;
+    box-shadow: 0 8px 6px -6px black;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    list-style: none;
+    margin: 0;
+}
+
+header li {
+    font-size: 1.4em;
+    color: #f2f1f6;
+    height: 50px;
+    padding: 15px 20px 0 20px;
+    cursor: pointer;
+}
+
+header li:hover {
+    background-color: #00276a;
+}
