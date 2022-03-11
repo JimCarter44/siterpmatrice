@@ -23,6 +23,9 @@ import Lampadati from "../../img/pdmImg/lampadati.png"
 import Ubermacht from "../../img/pdmImg/ubermacht.png"
 import Imponte from "../../img/pdmImg/imponte.png"
 import Albany from "../../img/pdmImg/albany.png"
+import Invetero from "../../img/pdmImg/invetero.png"
+import Schyster from "../../img/pdmImg/schyster.png"
+import Willard from "../../img/pdmImg/willard.png"
 
 import BuffaloSTX from "../../img/pdmImg/buffalo-stx.webp"
 import Scorcher from "../../img/pdmImg/scorcher.webp"
@@ -69,6 +72,30 @@ import ZionCab from "../../img/pdmImg/zion-cabrio.webp"
 import Duke from "../../img/pdmImg/dukes.webp"
 import Blade from "../../img/pdmImg/blade.webp"
 import Buccaneer from "../../img/pdmImg/buccaneer.webp"
+import BuccaneerCustom from "../../img/pdmImg/buccaneer-custom.webp"
+import BSStalion from "../../img/pdmImg/stallion-burger-shot.webp"
+import Chino from "../../img/pdmImg/chino.webp"
+import ChinoCustom from "../../img/pdmImg/chino-custom.webp"
+import Clique from "../../img/pdmImg/clique.webp"
+import BlackFinCoquette from "../../img/pdmImg/coquette-blackfin.webp"
+import Deviant from "../../img/pdmImg/deviant.webp"
+import Dominator from "../../img/pdmImg/dominator.webp"
+import ASPDominator from "../../img/pdmImg/dominator-asp.webp"
+import GTTDominator from "../../img/pdmImg/dominator-gtt.jpg"
+import GTXDominator from "../../img/pdmImg/dominator-gtx.webp"
+import Tampa from "../../img/pdmImg/tampa.webp"
+import DriftTampa from "../../img/pdmImg/tampa-drift.webp"
+import DriftYosemite from "../../img/pdmImg/drift-yosemite.webp"
+import Ellie from "../../img/pdmImg/ellie.webp"
+import Faction from "../../img/pdmImg/faction.webp"
+import CustomFaction from "../../img/pdmImg/faction-custom.webp"
+import DonkFaction from "../../img/pdmImg/faction-custom-donk.webp"
+import Gauntlet from "../../img/pdmImg/gauntlet.webp"
+import ClassicGauntlet from "../../img/pdmImg/gauntlet-classic.webp"
+import CustomClassicGauntlet from "../../img/pdmImg/gauntlet-classic-custom.webp"
+import HellfireGauntlet from "../../img/pdmImg/gauntlet-hellfire.webp"
+import Hermes from "../../img/pdmImg/hermes.webp"
+import HotKinife from "../../img/pdmImg/hotknife.webp"
 
 
 
@@ -356,8 +383,12 @@ function PDM() {
                                 srcBrand={Grotti} altBrand="Grotti" brand="Grotti" train="RWD" price="18 990"/>
                       <Vehicles class="compact" name="Weevil" places="2" src={Weevil} alt="Weevil" fuel="Essence" speed="84" chest="62"
                                 srcBrand={BF} altBrand="BF" brand="BF" train="RWD" price="19 990"/>
+                      <Vehicles class="muscle" name="BurgerShot Stalion" places="2" src={BSStalion} alt="BurgerShot Stalion" fuel="Essence" speed="89" chest="94"
+                                srcBrand={Declasse} altBrand="Declasse" brand="Declasse" train="RWD" price="24 510"/>
                       <Vehicles class="suv" name="Mesa" places="4" src={Mesa} alt="Mesa" fuel="Essence" speed="92" chest="95"
                                 srcBrand={Canis} altBrand="Canis" brand="Canis" train="AWD" price="28 059"/>
+                      <Vehicles class="muscle" name="Faction" places="2" src={Faction} alt="Faction" fuel="Essence" speed="87" chest="105"
+                                srcBrand={Willard} altBrand="Willard" brand="Willard" train="RWD" price="32 990"/>
                       <Vehicles class="coupe" name="Oracle XS" places="4" src={OracleXS} alt="Oracle XS" fuel="Essence" speed="94" chest="113"
                                 srcBrand={Ubermacht} altBrand="Ubermacht" brand="Ubermatch" train="RWD" price="33 520"/>
                       <Vehicles class="muscle" name="Blade" places="2" src={Blade} alt="Blade" fuel="Essence" speed="90" chest="102"
@@ -365,13 +396,21 @@ function PDM() {
                       <Vehicles class="coupe" name="Sentinel" places="2" src={Sentinel} alt="Sentinel" fuel="Essence" speed="88" chest="92"
                                 srcBrand={Ubermacht} altBrand="Ubermacht" brand="Ubermacht" train="RWD" price="34 110"/>
                       <Vehicles class="muscle" name="Duke" places="2" src={Duke} alt="Duke" fuel="Essence" speed="89" chest="106"
-                                srcBrand={Imponte} altBrand="Imponte" brand="Imponte" train="RWD" price="34 540"/>
+                                srcBrand={Imponte} altBrand="Imponte" brand="Imponte" train="RWD" price="34 129"/>
                       <Vehicles class="coupe" name="Sentinel XS" places="2" src={SentinelXS} alt="SentinelXS" fuel="Essence" speed="88" chest="87"
                                 srcBrand={Ubermacht} altBrand="Ubermacht" brand="Ubermacht" train="RWD" price="34 550"/>
+                      <Vehicles class="muscle" name="Dominator" places="2" src={Dominator} alt="Dominator" fuel="Essence" speed="90" chest="111"
+                                srcBrand={Vapid} altBrand="Vapid" brand="Vapid" train="RWD" price="34 970"/>
                       <Vehicles class="muscle" name="Buccaneer" places="2" src={Buccaneer} alt="Buccaneer" fuel="Essence" speed="90" chest="108"
                                 srcBrand={Albany} altBrand="Albany" brand="Albany" train="RWD" price="34 980"/>
                       <Vehicles class="coupe" name="Futo" places="2" src={Futo} alt="Futo" fuel="Essence" speed="84" chest="90"
                                 srcBrand={Karin} altBrand="Karin" brand="Karin" train="RWD" price="35 930"/>
+                      <Vehicles class="muscle" name="Deviant" places="2" src={Deviant} alt="Deviant" fuel="Essence" speed="90" chest="101"
+                                srcBrand={Schyster} altBrand="Schyster" brand="Schyster" train="RWD" price="35 980"/>
+                      <Vehicles class="muscle" name="Gauntlet" places="2" src={Gauntlet} alt="Gauntlet" fuel="Essence" speed="90" chest="105"
+                                srcBrand={Bravado} altBrand="Bravado" brand="Bravado" train="RWD" price="35 992"/>
+                      <Vehicles class="muscle" name="Chino" places="2" src={Chino} alt="Chino" fuel="Essence" speed="94" chest="103"
+                                srcBrand={Vapid} altBrand="Vapid" brand="Vapid" train="RWD" price="37 150"/>
                       <Vehicles class="compact" name="Blista-Kanjo" places="2" src={BlistaKanjo} alt="Blista-Kanjo" fuel="Essence" speed="86" chest="65"
                                 srcBrand={Dinka} altBrand="Dinka" brand="Dinka" train="FWD" price="37 930"/>
                       <Vehicles class="coupe" name="Zion" places="2" src={Zion} alt="Zion" fuel="Essence" speed="90" chest="98"
@@ -384,22 +423,56 @@ function PDM() {
                                 srcBrand={Lampadati} altBrand="Lampadati" brand="Lampadati" train="RWD" price="44 992"/>
                       <Vehicles class="coupe" name="FelonGT" places="2" src={FelonGT} alt="FelonGT" fuel="Essence" speed="90" chest="87"
                                 srcBrand={Lampadati} altBrand="Lampadati" brand="Lampadati" train="RWD" price="45 997"/>
+                      <Vehicles class="muscle" name="Faction-Custom" places="2" src={CustomFaction} alt="Faction-Custom" fuel="Essence" speed="87" chest="94"
+                                srcBrand={Willard} altBrand="Willard" brand="Willard" train="RWD" price="48 995"/>
+                      <Vehicles class="muscle" name="BuccaneerCustom" places="2" src={BuccaneerCustom} alt="BuccaneerCustom" fuel="Essence" speed="91" chest="102"
+                                srcBrand={Albany} altBrand="Albany" brand="Albany" train="RWD" price="49 990"/>
                       <Vehicles class="coupe" name="Previon" places="2" src={Previon} alt="Previon" fuel="Essence" speed="92" chest="89"
                                 srcBrand={Karin} altBrand="Karin" brand="Karin" train="RWD" price="51 190"/>
+                      <Vehicles class="muscle" name="ChinoCustom" places="2" src={ChinoCustom} alt="ChinoCustom" fuel="Essence" speed="95" chest="104"
+                                srcBrand={Vapid} altBrand="Vapid" brand="Vapid" train="RWD" price="51 920"/>
+                      <Vehicles class="muscle" name="Clique" places="2" src={Clique} alt="Clique" fuel="Essence" speed="93" chest="97"
+                                srcBrand={Vapid} altBrand="Vapid" brand="Vapid" train="RWD" price="55 970"/>
+                      <Vehicles class="muscle" name="HotKnife" places="2" src={HotKinife} alt="HotKnife" fuel="Essence" speed="87" chest="96"
+                                srcBrand={Vapid} altBrand="Vapid" brand="Vapid" train="RWD" price="62 997"/>
+                      <Vehicles class="muscle" name="Dominator-GTX" places="2" src={GTXDominator} alt="Dominator-GTX" fuel="Essence" speed="90" chest="108"
+                                srcBrand={Vapid} altBrand="Vapid" brand="Vapid" train="RWD" price="68 949"/>
+                      <Vehicles class="muscle" name="Dominator-ASP" places="2" src={ASPDominator} alt="Dominator-ASP" fuel="Essence" speed="93" chest="113"
+                                srcBrand={Vapid} altBrand="Vapid" brand="Vapid" train="RWD" price="69 980"/>
+                      <Vehicles class="muscle" name="Coquette BlackFin" places="2" src={BlackFinCoquette} alt="Coquette BlackFin" fuel="Essence" speed="93" chest="78"
+                                srcBrand={Invetero} altBrand="Invetero" brand="Invetero" train="RWD" price="69 990"/>
+                      <Vehicles class="muscle" name="Yosemite-Drift" places="2" src={DriftYosemite} alt="Yosemite-Drift" fuel="Essence" speed="87" chest="150"
+                                srcBrand={Declasse} altBrand="Declasse" brand="Declasse" train="RWD" price="70 920"/>
+                      <Vehicles class="muscle" name="Tampa-Drift" places="2" src={DriftTampa} alt="Tampa-Drift" fuel="Essence" speed="93" chest="65"
+                                srcBrand={Declasse} altBrand="Declasse" brand="Declasse" train="RWD" price="71 699"/>
+                      <Vehicles class="muscle" name="Gauntlet-Classic" places="2" src={ClassicGauntlet} alt="Gauntlet-Classic" fuel="Essence" speed="88" chest="101"
+                                srcBrand={Bravado} altBrand="Bravado" brand="Bravado" train="RWD" price="71 970"/>
+                      <Vehicles class="muscle" name="Gauntlet-HellFire" places="2" src={HellfireGauntlet} alt="Gauntlet-HellFire" fuel="Essence" speed="96" chest="109"
+                                srcBrand={Bravado} altBrand="Bravado" brand="Bravado" train="RWD" price="72 980"/>
+                      <Vehicles class="muscle" name="Gauntlet-Classic-Custom" places="2" src={CustomClassicGauntlet} alt="Gauntlet-Classic-Custom" fuel="Essence" speed="98" chest="105"
+                                srcBrand={Bravado} altBrand="Bravado" brand="Bravado" train="RWD" price="73 970"/>
+                      <Vehicles class="muscle" name="Ellie" places="2" src={Ellie} alt="Ellie" fuel="Essence" speed="88" chest="99"
+                                srcBrand={Vapid} altBrand="Vapid" brand="Vapid" train="RWD" price="74 992"/>
                       <Vehicles class="coupe" name="Exemplar" places="4" src={Exemplar} alt="Exemplar" fuel="Essence" speed="90" chest="115"
                                 srcBrand={Dewbauchee} altBrand="Dewbauchee" brand="Dewbauchee" train="RWD" price="75 999"/>
                       <Vehicles class="coupe" name="Cognoscenti-Cabrio" places="2" src={CognoscentiCabrio} alt="Cognoscenti-Cabrio" fuel="Essence" speed="90" chest="120"
                                 srcBrand={Enus} altBrand="Enus" brand="Enus" train="RWD" price="77 970"/>
                       <Vehicles class="coupe" name="F620" places="2" src={F620} alt="F620" fuel="Essence" speed="90" chest="105"
                                 srcBrand={Ocelot} altBrand="Ocelot" brand="Ocelot" train="RWD" price="78 893"/>
+                      <Vehicles class="muscle" name="Faction-Donk" places="2" src={DonkFaction} alt="Faction-Donk" fuel="Essence" speed="87" chest="99"
+                                srcBrand={Willard} altBrand="Willard" brand="Willard" train="RWD" price="78 999"/>
                       <Vehicles class="coupe" name="Sentinel Classic" places="2" src={SentinelClassic} alt="Sentinel Classic" fuel="Essence" speed="87" chest="84"
                                 srcBrand={Ubermacht} altBrand="Ubermacht" brand="Ubermacht" train="RWD" price="79 990"/>
+                      <Vehicles class="muscle" name="Dominator-GTT" places="2" src={GTTDominator} alt="Dominator-GTT" fuel="Essence" speed="91" chest="113"
+                                srcBrand={Vapid} altBrand="Vapid" brand="Vapid" train="RWD" price="84 520"/>
                       <Vehicles class="muscle" name="Buffalo STX" places="4" src={BuffaloSTX} alt="Buffalo STX" fuel="Essence" speed="95" chest="120"
                                 srcBrand={Bravado} altBrand="Bravado" brand="Bravado" train="RWD" price="84 983"/>
                       <Vehicles class="coupe" name="Windsor" places="2" src={Windsor} alt="Windsor" fuel="Essence" speed="93" chest="103"
                                 srcBrand={Enus} altBrand="Enus" brand="Enus" train="RWD" price="169 999"/>
                       <Vehicles class="coupe" name="Windsor Drop" places="4" src={WindsorDrop} alt="WindsorDrop" fuel="Essence" speed="93" chest="95"
                                 srcBrand={Enus} altBrand="Enus" brand="Enus" train="RWD" price="174 990"/>
+                      <Vehicles class="muscle" name="Hermes" places="2" src={Hermes} alt="Hermes" fuel="Essence" speed="85" chest="87"
+                                srcBrand={Albany} altBrand="Albany" brand="Albany" train="RWD" price="179 992"/>
                       <Vehicles class="coupe" name="Champion" places="2" src={Champion} alt="Champion" fuel="Essence" speed="100" chest="86"
                                 srcBrand={Dewbauchee} altBrand="Dewbauchee" brand="Dewbauchee" train="RWD" price="213 965"/>
                   </div>
