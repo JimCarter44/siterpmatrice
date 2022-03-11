@@ -21,6 +21,8 @@ import Dewbauchee from "../../img/pdmImg/dewbauchee.png"
 import Enus from "../../img/pdmImg/Enus.png"
 import Lampadati from "../../img/pdmImg/lampadati.png"
 import Ubermacht from "../../img/pdmImg/ubermacht.png"
+import Imponte from "../../img/pdmImg/imponte.png"
+import Albany from "../../img/pdmImg/albany.png"
 
 import BuffaloSTX from "../../img/pdmImg/buffalo-stx.webp"
 import Scorcher from "../../img/pdmImg/scorcher.webp"
@@ -64,6 +66,9 @@ import Windsor from "../../img/pdmImg/windsor.jpg"
 import WindsorDrop from "../../img/pdmImg/windsor-drop.jpg"
 import Zion from "../../img/pdmImg/zion.jpg"
 import ZionCab from "../../img/pdmImg/zion-cabrio.webp"
+import Duke from "../../img/pdmImg/dukes.webp"
+import Blade from "../../img/pdmImg/blade.webp"
+import Buccaneer from "../../img/pdmImg/buccaneer.webp"
 
 
 
@@ -355,10 +360,16 @@ function PDM() {
                                 srcBrand={Canis} altBrand="Canis" brand="Canis" train="AWD" price="28 059"/>
                       <Vehicles class="coupe" name="Oracle XS" places="4" src={OracleXS} alt="Oracle XS" fuel="Essence" speed="94" chest="113"
                                 srcBrand={Ubermacht} altBrand="Ubermacht" brand="Ubermatch" train="RWD" price="33 520"/>
+                      <Vehicles class="muscle" name="Blade" places="2" src={Blade} alt="Blade" fuel="Essence" speed="90" chest="102"
+                                srcBrand={Vapid} altBrand="Vapid" brand="Vapid" train="RWD" price="33 870"/>
                       <Vehicles class="coupe" name="Sentinel" places="2" src={Sentinel} alt="Sentinel" fuel="Essence" speed="88" chest="92"
                                 srcBrand={Ubermacht} altBrand="Ubermacht" brand="Ubermacht" train="RWD" price="34 110"/>
+                      <Vehicles class="muscle" name="Duke" places="2" src={Duke} alt="Duke" fuel="Essence" speed="89" chest="106"
+                                srcBrand={Imponte} altBrand="Imponte" brand="Imponte" train="RWD" price="34 540"/>
                       <Vehicles class="coupe" name="Sentinel XS" places="2" src={SentinelXS} alt="SentinelXS" fuel="Essence" speed="88" chest="87"
                                 srcBrand={Ubermacht} altBrand="Ubermacht" brand="Ubermacht" train="RWD" price="34 550"/>
+                      <Vehicles class="muscle" name="Buccaneer" places="2" src={Buccaneer} alt="Buccaneer" fuel="Essence" speed="90" chest="108"
+                                srcBrand={Albany} altBrand="Albany" brand="Albany" train="RWD" price="34 980"/>
                       <Vehicles class="coupe" name="Futo" places="2" src={Futo} alt="Futo" fuel="Essence" speed="84" chest="90"
                                 srcBrand={Karin} altBrand="Karin" brand="Karin" train="RWD" price="35 930"/>
                       <Vehicles class="compact" name="Blista-Kanjo" places="2" src={BlistaKanjo} alt="Blista-Kanjo" fuel="Essence" speed="86" chest="65"
