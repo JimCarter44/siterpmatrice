@@ -121,6 +121,10 @@ import Vamos from "../../img/pdmImg/vamos.webp"
 import Vigero from "../../img/pdmImg/vigero.webp"
 import Virgo from "../../img/pdmImg/virgo.webp"
 import ClassicVirgo from "../../img/pdmImg/virgo-classic.webp"
+import CustomClassicVirgo from "../../img/pdmImg/virgo-classic-custom.webp"
+import CustomVoodoo from "../../img/pdmImg/voodoo-custom.webp"
+import Voodoo from "../../img/pdmImg/voodoo.webp"
+import Yosemite from "../../img/pdmImg/yosemite.webp"
 
 
 
@@ -403,6 +407,8 @@ function PDM() {
                                 srcBrand={Declasse} altBrand="Declasse" brand="Declasse" train="RWD" price="11 995"/>
                       <Vehicles class="muscle" name="Picador" places="2" src={Picador} alt="Picador" fuel="Essence" speed="84" chest="120"
                                 srcBrand={Cheval} altBrand="Cheval" brand="Cheval" train="AWD" price="12 990"/>
+                      <Vehicles class="muscle" name="Voodoo Custom" places="2" src={CustomVoodoo} alt="Voodoo Custom" fuel="Essence" speed="80" chest="113"
+                                srcBrand={Declasse} altBrand="Declasse" brand="Declasse" train="RWD" price="13 000"/>
                       <Vehicles class="compact" name="Club" places="2" src={Club} alt="Club" fuel="Essence" speed="87" chest="75"
                                 srcBrand={BF} altBrand="BF" brand="BF" train="FWD" price="14 980"/>
                       <Vehicles class="offroad" name="Bifta" places="2" src={Bifta} alt="Bifta" fuel="Essence" speed="70" chest="50"
@@ -411,6 +417,8 @@ function PDM() {
                                 srcBrand={Imponte} altBrand="Imponte" brand="Imponte" train="RWD" price="14 995"/>
                       <Vehicles class="muscle" name="Virgo Classic" places="2" src={ClassicVirgo} alt="Virgo Classic" fuel="Essence" speed="84" chest="115"
                                 srcBrand={Dundreary} altBrand="Dundreary" brand="Dundreary" train="RWD" price="15 490"/>
+                      <Vehicles class="muscle" name="Virgo Classic Custom" places="2" src={CustomClassicVirgo} alt="Virgo Classic Custom" fuel="Essence" speed="84" chest="115"
+                                srcBrand={Dundreary} altBrand="Dundreary" brand="Dundreary" train="RWD" price="15 990"/>
                       <Vehicles class="sedan" name="Stanier" places="4" src={Stanier} alt="Stanier" fuel="Essence" speed="80" chest="100"
                                 srcBrand={Vapid} altBrand="Vapid" brand="Vapid" train="RWD" price="15 990"/>
                       <Vehicles class="compact" name="Issi" places="2" src={Issi} alt="Issi" fuel="Essence" speed="83" chest="53"
@@ -465,6 +473,8 @@ function PDM() {
                                 srcBrand={Vapid} altBrand="Vapid" brand="Vapid" train="RWD" price="37 150"/>
                       <Vehicles class="compact" name="Blista-Kanjo" places="2" src={BlistaKanjo} alt="Blista-Kanjo" fuel="Essence" speed="86" chest="65"
                                 srcBrand={Dinka} altBrand="Dinka" brand="Dinka" train="FWD" price="37 930"/>
+                      <Vehicles class="muscle" name="Yosemite" places="2" src={Yosemite} alt="Yosemite" fuel="Essence" speed="85" chest="119"
+                                srcBrand={Declasse} altBrand="Declasse" brand="Declasse" train="RWD" price="40 770"/>
                       <Vehicles class="muscle" name="Manana Custom" places="2" src={CustomManana} alt="Manana Custom" fuel="Essence" speed="88" chest="103"
                                 srcBrand={Albany} altBrand="Albany" brand="Albany" train="RWD" price="42 987"/>
                       <Vehicles class="coupe" name="Zion" places="2" src={Zion} alt="Zion" fuel="Essence" speed="90" chest="98"
@@ -483,6 +493,8 @@ function PDM() {
                                 srcBrand={Lampadati} altBrand="Lampadati" brand="Lampadati" train="RWD" price="45 997"/>
                       <Vehicles class="muscle" name="Tampa" places="2" src={Tampa} alt="Tampa" fuel="Essence" speed="87" chest="107"
                                 srcBrand={Declasse} altBrand="Declasse" brand="Declasse" train="RWD" price="46 699"/>
+                      <Vehicles class="muscle" name="Virgo Rouillé" places="2" src={Voodoo} alt="Voodoo Rouillé" fuel="Essence" speed="81" chest="112"
+                                srcBrand={Declasse} altBrand="Declasse" brand="Declasse" train="RWD" price="47 590"/>
                       <Vehicles class="muscle" name="Faction-Custom" places="2" src={CustomFaction} alt="Faction-Custom" fuel="Essence" speed="87" chest="94"
                                 srcBrand={Willard} altBrand="Willard" brand="Willard" train="RWD" price="48 995"/>
                       <Vehicles class="muscle" name="BuccaneerCustom" places="2" src={BuccaneerCustom} alt="BuccaneerCustom" fuel="Essence" speed="91" chest="102"
