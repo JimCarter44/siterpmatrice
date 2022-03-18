@@ -50,6 +50,7 @@ import Shitzu from "../../img/pdmImg/shitzu.png"
 import Principe from "../../img/pdmImg/principe.png"
 import Overflod from "../../img/pdmImg/overflod.png"
 import Progen from "../../img/pdmImg/progen.png"
+import Hijak from "../../img/pdmImg/hijak.png"
 
 import BuffaloSTX from "../../img/pdmImg/buffalo-stx.webp"
 import Scorcher from "../../img/pdmImg/scorcher.webp"
@@ -379,6 +380,45 @@ import XA21 from "../../img/pdmImg/xa-21.webp"
 import Zentorno from "../../img/pdmImg/zentorno.webp"
 import Zeno from "../../img/pdmImg/zeno.webp"
 import Zorrusso from "../../img/pdmImg/zorrusso.webp"
+import FDrafter from "../../img/pdmImg/drafter-8f.webp"
+import F9 from "../../img/pdmImg/9f.webp"
+import F9Cabrio from "../../img/pdmImg/9f-cabrio.webp"
+import Alpha from "../../img/pdmImg/alpha.webp"
+import Banshee from "../../img/pdmImg/banshee.webp"
+import BestiaGTS from "../../img/pdmImg/bestia-gts.webp"
+import BlistaCompact from "../../img/pdmImg/blista-compact.webp"
+import Buffalo from "../../img/pdmImg/buffalo.webp"
+import BuffaloS from "../../img/pdmImg/buffalo-s.webp"
+import CalicoGTF from "../../img/pdmImg/CalicoGTF.webp"
+import Carbonizzare from "../../img/pdmImg/carbonizzare.webp"
+import Comet from "../../img/pdmImg/comet.webp"
+import CometRetroCustom from "../../img/pdmImg/comet-retro-custom.webp"
+import CometS2 from "../../img/pdmImg/comet-s2.webp"
+import CometS2Cabrio from "../../img/pdmImg/comet-s2-cabrio.webp"
+import CometSafari from "../../img/pdmImg/comet-safari.webp"
+import CometSR from "../../img/pdmImg/comet-sr.webp"
+import Coquette from "../../img/pdmImg/coquette.webp"
+import CoquetteD10 from "../../img/pdmImg/coquette-d10.webp"
+import Cypher from "../../img/pdmImg/cypher.webp"
+import ElegyRetroCustom from "../../img/pdmImg/elegy-retro-custom.webp"
+import ElegyRH8 from "../../img/pdmImg/elegy-rh8.webp"
+import Euros from "../../img/pdmImg/euros.webp"
+import Feltzer from "../../img/pdmImg/feltzer.webp"
+import FlashGT from "../../img/pdmImg/flash-gt.webp"
+import FuroreGT from "../../img/pdmImg/furore-gt.webp"
+import Fusilade from "../../img/pdmImg/fusilade.webp"
+import FutoGTX from "../../img/pdmImg/futo-gtx.webp"
+import GB200 from "../../img/pdmImg/gb200.webp"
+import Growler from "../../img/pdmImg/growler.webp"
+import Imorgon from "../../img/pdmImg/imorgon.webp"
+import IssiSport from "../../img/pdmImg/issi-sport.webp"
+import ItaliGTO from "../../img/pdmImg/itali-gto.webp"
+import ItaliRSX from "../../img/pdmImg/itali-rsx.webp"
+import Jester from "../../img/pdmImg/jester.webp"
+import JesterClassic from "../../img/pdmImg/jester-classic.webp"
+import JesterRR from "../../img/pdmImg/jester-rr.webp"
+import Jugular from "../../img/pdmImg/jugular.webp"
+import Khamelion from "../../img/pdmImg/khamelion.webp"
 
 
 function PDM() {
@@ -887,10 +927,16 @@ function PDM() {
                                 srcBrand={Imponte} altBrand="Imponte" brand="Imponte" train="RWD" price="34 129"/>
                       <Vehicles class="coupe" name="Sentinel XS" places="2" src={SentinelXS} alt="SentinelXS" fuel="Essence" speed="88" chest="87"
                                 srcBrand={Ubermacht} altBrand="Ubermacht" brand="Ubermacht" train="RWD" price="34 550"/>
+                      <Vehicles class="sports" name="Buffalo" places="4" src={Buffalo} alt="Buffalo" fuel="Essence" speed="90" chest="80"
+                                srcBrand={Bravado} altBrand="Bravado" brand="Bravado" train="RWD" price="34 960"/>
                       <Vehicles class="muscle" name="Dominator" places="2" src={Dominator} alt="Dominator" fuel="Essence" speed="90" chest="111"
                                 srcBrand={Vapid} altBrand="Vapid" brand="Vapid" train="RWD" price="34 970"/>
                       <Vehicles class="muscle" name="Buccaneer" places="2" src={Buccaneer} alt="Buccaneer" fuel="Essence" speed="90" chest="108"
                                 srcBrand={Albany} altBrand="Albany" brand="Albany" train="RWD" price="34 980"/>
+                      <Vehicles class="sports" name="Blista Compact" places="2" src={BlistaCompact} alt="Blista Compact" fuel="Essence" speed="82" chest="80"
+                                srcBrand={Dinka} altBrand="Dinka" brand="Dinka" train="FWD" price="35 030"/>
+                      <Vehicles class="sports" name="Buffalo S" places="2" src={BuffaloS} alt="Buffalo S" fuel="Essence" speed="90" chest="80"
+                                srcBrand={Bravado} altBrand="Bravado" brand="Bravado" train="RWD" price="35 510"/>
                       <Vehicles class="muscle" name="Sabre Turbo" places="2" src={SabreTurbo} alt="Sabre Turbo" fuel="Essence" speed="87" chest="97"
                                 srcBrand={Declasse} altBrand="Declasse" brand="Declasse" train="AWD" price="35 879"/>
                       <Vehicles class="coupe" name="Futo" places="2" src={Futo} alt="Futo" fuel="Essence" speed="84" chest="90"
@@ -1013,6 +1059,8 @@ function PDM() {
                                 srcBrand={Ubermacht} altBrand="Ubermacht" brand="Ubermacht" train="RWD" price="51 999"/>
                       <Vehicles class="motorcycles" name="Chimera" places="1" src={Chimera} alt="Chimera" fuel="Essence" speed="84" chest="0"
                                 srcBrand={Nagasaki} altBrand="Nagasaki" brand="Nagasaki" train="RWD" price="52 190"/>
+                      <Vehicles class="sports" name="Fusilade" places="2" src={Fusilade} alt="Fusilade" fuel="Essence" speed="93" chest="80"
+                                srcBrand={Schyster} altBrand="Schyster" brand="Schyster" train="RWD" price="53 979"/>
                       <Vehicles class="muscle" name="Vamos" places="2" src={Vamos} alt="Vamos" fuel="Essence" speed="90" chest="88"
                                 srcBrand={Declasse} altBrand="Declasse" brand="Declasse" train="RWD" price="53 990"/>
                       <Vehicles class="motorcycles" name="Nightblade" places="2" src={Nightblade} alt="Nightblade" fuel="Essence" speed="88" chest="0"
@@ -1109,21 +1157,39 @@ function PDM() {
                                 srcBrand={Ubermacht} altBrand="Ubermacht" brand="Ubermacht" train="RWD" price="79 990"/>
                       <Vehicles class="suvs" name="Patriot" places="4" src={Patriot} alt="Patriot" fuel="Essence" speed="81" chest="80"
                                 srcBrand={Mammoth} altBrand="Mammoth" brand="Mammoth" train="AWD" price="79 990"/>
+                      <Vehicles class="sports" name="Alpha" places="2" src={Alpha} alt="Alpha" fuel="Essence" speed="93" chest="80"
+                                srcBrand={Albany} altBrand="Albany" brand="Albany" train="RWD" price="79 990"/>
                       <Vehicles class="sportsclassic" name="190Z" places="2" src={Z} alt="190Z" fuel="Essence" speed="87" chest="55"
                                 srcBrand={Karin} altBrand="Karin" brand="Karin" train="RWD" price="79 990"/>
                       <Vehicles class="muscle" name="SlamTruck" places="2" src={SlamTruck} alt="SlamTruck" fuel="Essence" speed="78" chest="132"
                                 srcBrand={Vapid} altBrand="Vapid" brand="Vapid" train="RWD" price="79 999"/>
                       {/* 80K to 90K */}
+                      <Vehicles class="sports" name="8F Drafter" places="2" src={FDrafter} alt="8F Drafter" fuel="Essence" speed="93" chest="80"
+                                srcBrand={Obey} altBrand="Obey" brand="Obey" train="AWD" price="80 990"/>
                       <Vehicles class="offroad" name="Hellion" places="2" src={Hellion} alt="Hellion" fuel="Essence" speed="83" chest="80"
                                 srcBrand={Annis} altBrand="Annis" brand="Annis" train="AWD" price="80 991"/>
+                      <Vehicles class="sports" name="Khamelion" places="2" src={Khamelion} alt="Khamelion" fuel="Essence" speed="87" chest="80"
+                                srcBrand={Hijak} altBrand="Hijak" brand="Hijak" train="RWD" price="80 995"/>
+                      <Vehicles class="sports" name="Futo GTX" places="2" src={FutoGTX} alt="Futo GTX" fuel="Essence" speed="85" chest="80"
+                                srcBrand={Karin} altBrand="Karin" brand="Karin" train="RWD" price="80 997"/>
+                      <Vehicles class="sports" name="Furore GT" places="2" src={FuroreGT} alt="Furore GT" fuel="Essence" speed="94" chest="80"
+                                srcBrand={Lampadati} altBrand="Lampadati" brand="Lampadati" train="RWD" price="81 992"/>
                       <Vehicles class="offroad" name="Everon" places="4" src={Everon} alt="Everon" fuel="Essence" speed="85" chest="105"
                                 srcBrand={Karin} altBrand="Karin" brand="Karin" train="AWD" price="81 997"/>
                       <Vehicles class="offroad" name="Brawler" places="2" src={Brawler} alt="Brawler" fuel="Essence" speed="87" chest="56"
                                 srcBrand={Coil} altBrand="Coil" brand="Coil" train="AWD" price="82 970"/>
+                      <Vehicles class="sports" name="Jester Classic" places="2" src={JesterClassic} alt="Jester Classic" fuel="Essence" speed="96" chest="80"
+                                srcBrand={Dinka} altBrand="Dinka" brand="Dinka" train="RWD" price="83 990"/>
                       <Vehicles class="muscle" name="Dominator-GTT" places="2" src={GTTDominator} alt="Dominator-GTT" fuel="Essence" speed="91" chest="113"
                                 srcBrand={Vapid} altBrand="Vapid" brand="Vapid" train="RWD" price="84 520"/>
                       <Vehicles class="muscle" name="Buffalo STX" places="4" src={BuffaloSTX} alt="Buffalo STX" fuel="Essence" speed="95" chest="120"
                                 srcBrand={Bravado} altBrand="Bravado" brand="Bravado" train="RWD" price="84 983"/>
+                      <Vehicles class="sports" name="Calico GTF" places="2" src={CalicoGTF} alt="Calico GTF" fuel="Essence" speed="93" chest="80"
+                                srcBrand={Karin} altBrand="Karin" brand="Karin" train="AWD" price="85 970"/>
+                      <Vehicles class="sports" name="Cypher" places="2" src={Cypher} alt="Cypher" fuel="Essence" speed="92" chest="80"
+                                srcBrand={Ubermacht} altBrand="Ubermacht" brand="Ubermacht" train="RWD" price="85 990"/>
+                      <Vehicles class="sports" name="IssiSport" places="2" src={IssiSport} alt="IssiSport" fuel="Essence" speed="92" chest="80"
+                                srcBrand={Weeny} altBrand="Weeny" brand="Weeny" train="AWD" price="86 999"/>
                       <Vehicles class="motorcycles" name="Reever" places="2" src={Reever} alt="Reever" fuel="Essence" speed="94" chest="0"
                                 srcBrand={Western} altBrand="Western" brand="Western" train="RWD" price="89 900"/>
                       <Vehicles class="sedan" name="Cinquemila" places="4" src={Cinquemila} alt="Cinquemila" fuel="Essence" speed="96" chest="80"
@@ -1136,6 +1202,8 @@ function PDM() {
                       {/* 100K to 110K */}
                       <Vehicles class="suvs" name="I Wagen" places="4" src={IWagen} alt="I Wagen" fuel="Essence" speed="79" chest="80"
                                 srcBrand={Obey} altBrand="Obey" brand="Obey" train="AWD" price="103 990"/>
+                      <Vehicles class="sports" name="9F" places="2" src={F9} alt="9F" fuel="Essence" speed="96" chest="80"
+                                srcBrand={Obey} altBrand="Obey" brand="Obey" train="AWD" price="109 990"/>
                       <Vehicles class="suvs" name="Dubsta II" places="4" src={DubstaII} alt="Dubsta II" fuel="Essence" speed="87" chest="80"
                                 srcBrand={Benefactor} altBrand="Benefactor" brand="Benefactor" train="AWD" price="109 997"/>
                       {/* 110K to 120K */}
@@ -1145,6 +1213,8 @@ function PDM() {
                                 srcBrand={Canis} altBrand="Canis" brand="Canis" train="AWD" price="113 990"/>
                       <Vehicles class="offroad" name="Caracara 4X4" places="4" src={Caracara4X4} alt="Caracara 4X4" fuel="Essence" speed="86" chest="118"
                                 srcBrand={Vapid} altBrand="Vapid" brand="Vapid" train="AWD" price="114 950"/>
+                      <Vehicles class="sports" name="Jugular" places="2" src={Jugular} alt="Jugular" fuel="Essence" speed="98" chest="80"
+                                srcBrand={Ocelot} altBrand="Ocelot" brand="Ocelot" train="AWD" price="114 997"/>
                       <Vehicles class="sedan" name="Cognoscenti 55" places="4" src={Cognoscenti55} alt="Cognoscenti 55" fuel="Essence" speed="90" chest="95"
                                 srcBrand={Enus} altBrand="Enus" brand="Enus" train="RWD" price="119 990"/>
                       <Vehicles class="super" name="Voltic" places="2" src={Voltic} alt="Voltic" fuel="Essence" speed="90" chest="50"
@@ -1160,17 +1230,41 @@ function PDM() {
                       <Vehicles class="motorcycles" name="Hakuchou Drag" places="2" src={HakuchouDrag} alt="Hakuchou Drag" fuel="Essence" speed="99" chest="0"
                                 srcBrand={Shitzu} altBrand="Shitzu" brand="Shitzu" train="RWD" price="119 999"/>
                       {/* 120K to 130K */}
+                      <Vehicles class="sports" name="Flash GT" places="2" src={FlashGT} alt="Flash GT" fuel="Essence" speed="94" chest="80"
+                                srcBrand={Vapid} altBrand="Vapid" brand="Vapid" train="AWD" price="120 997"/>
+                      <Vehicles class="sports" name="9F Cabrio" places="2" src={F9Cabrio} alt="9F Cabrio" fuel="Essence" speed="96" chest="80"
+                                srcBrand={Obey} altBrand="Obey" brand="Obey" train="AWD" price="121 990"/>
+                      <Vehicles class="sports" name="GB 200" places="2" src={GB200} alt="GB 200" fuel="Essence" speed="95" chest="80"
+                                srcBrand={Vapid} altBrand="Vapid" brand="Vapid" train="AWD" price="121 999"/>
                       <Vehicles class="sportsclassic" name="Monroe" places="2" src={Monroe} alt="Monroe" fuel="Essence" speed="93" chest="55"
                                 srcBrand={Pegassi} altBrand="Pegassi" brand="Pegassi" train="RWD" price="124 997"/>
                       <Vehicles class="suvs" name="Baller ST" places="4" src={BallerST} alt="Baller ST" fuel="Essence" speed="87" chest="80"
                                 srcBrand={Gallivanter} altBrand="Gallivanter" brand="Gallivanter" train="AWD" price="124 990"/>
+                      <Vehicles class="sports" name="Euros" places="2" src={Euros} alt="Euros" fuel="Essence" speed="93" chest="80"
+                                srcBrand={Annis} altBrand="Annis" brand="Annis" train="RWD" price="125 993"/>
                       <Vehicles class="sportsclassic" name="Stirling GT" places="2" src={StirlingGT} alt="Stirling GT" fuel="Essence" speed="86" chest="43"
                                 srcBrand={Benefactor} altBrand="Benefactor" brand="Benefactor" train="RWD" price="126 990"/>
+                      <Vehicles class="sports" name="Feltzer" places="2" src={Feltzer} alt="Feltzer" fuel="Essence" speed="95" chest="80"
+                                srcBrand={Benefactor} altBrand="Benefactor" brand="Benefactor" train="RWD" price="126 999"/>
+                      <Vehicles class="sports" name="Elegy Retro Custom" places="2" src={ElegyRetroCustom} alt="Elegy Retro Custom" fuel="Essence" speed="92" chest="80"
+                                srcBrand={Annis} altBrand="Annis" brand="Annis" train="AWD" price="128 992"/>
                       <Vehicles class="sportsclassic" name="Torero" places="2" src={Torero} alt="Torero" fuel="Essence" speed="93" chest="55"
                                 srcBrand={Pegassi} altBrand="Pegassi" brand="Pegassi" train="RWD" price="129 699"/>
+                      <Vehicles class="sports" name="Elegy RH8" places="2" src={ElegyRH8} alt="Elegy RH8" fuel="Essence" speed="94" chest="80"
+                                srcBrand={Annis} altBrand="Annis" brand="Annis" train="AWD" price="129 997"/>
                       {/* 130K to 140K */}
+                      <Vehicles class="sports" name="Carbonizzare" places="2" src={Carbonizzare} alt="Carbonizzare" fuel="Essence" speed="98" chest="80"
+                                srcBrand={Grotti} altBrand="Grotti" brand="Grotti" train="RWD" price="133 980"/>
+                      <Vehicles class="sports" name="Coquette" places="2" src={Coquette} alt="Coquette" fuel="Essence" speed="94" chest="80"
+                                srcBrand={Invetero} altBrand="Invetero" brand="Invetero" train="RWD" price="134 960"/>
                       <Vehicles class="suvs" name="Astron" places="4" src={Astron} alt="Astron" fuel="Essence" speed="93" chest="80"
                                 srcBrand={Pfister} altBrand="Pfister" brand="Pfister" train="AWD" price="134 970"/>
+                      <Vehicles class="sports" name="Jester RR" places="2" src={JesterRR} alt="Jester RR" fuel="Essence" speed="95" chest="80"
+                                srcBrand={Dinka} altBrand="Dinka" brand="Dinka" train="RWD" price="134 996"/>
+                      <Vehicles class="sports" name="Imorgon" places="2" src={Imorgon} alt="Imorgon" fuel="Essence" speed="93" chest="80"
+                                srcBrand={Overflod} altBrand="Overflod" brand="Overflod" train="AWD" price="134 997"/>
+                      <Vehicles class="sports" name="Banshee" places="2" src={Banshee} alt="Banshee" fuel="Essence" speed="92" chest="80"
+                                srcBrand={Bravado} altBrand="Bravado" brand="Bravado" train="RWD" price="139 920"/>
                       <Vehicles class="sportsclassic" name="Cheetah Classic" places="2" src={CheetahClassic} alt="Cheetah Classic" fuel="Essence" speed="95" chest="63"
                                 srcBrand={Grotti} altBrand="Grotti" brand="Grotti" train="RWD" price="139 950"/>
                       <Vehicles class="sedan" name="Deity" places="4" src={Deity} alt="Deity" fuel="Essence" speed="93" chest="86"
@@ -1186,9 +1280,15 @@ function PDM() {
                                 srcBrand={Enus} altBrand="Enus" brand="Enus" train="AWD" price="143 559"/>
                       <Vehicles class="super" name="Banshee 900RR" places="2" src={Banshee900RR} alt="Banshee 900RR" fuel="Essence" speed="93" chest="50"
                                 srcBrand={Bravado} altBrand="Bravado" brand="Bravado" train="RWD" price="144 490"/>
+                      <Vehicles class="sports" name="Bestia GTS" places="2" src={BestiaGTS} alt="Bestia GTS" fuel="Essence" speed="96" chest="80"
+                                srcBrand={Grotti} altBrand="Grotti" brand="Grotti" train="AWD" price="144 970"/>
                       <Vehicles class="sedan" name="Cognoscenti" places="4" src={Cognoscenti} alt="Cognoscenti" fuel="Essence" speed="87" chest="86"
                                 srcBrand={Enus} altBrand="Enus" brand="Enus" train="RWD" price="149 980"/>
+                      <Vehicles class="sports" name="Comet" places="2" src={Comet} alt="Comet" fuel="Essence" speed="95" chest="80"
+                                srcBrand={Pfister} altBrand="Pfister" brand="Pfister" train="RWD" price="149 930"/>
                       {/* 150K to 160K */}
+                      <Vehicles class="sports" name="Comet Retro Custom" places="2" src={CometRetroCustom} alt="Comet Retro Custom" fuel="Essence" speed="95" chest="80"
+                                srcBrand={Pfister} altBrand="Pfister" brand="Pfister" train="RWD" price="159 999"/>
                       {/* 160K to 170K */}
                       <Vehicles class="coupe" name="Windsor" places="2" src={Windsor} alt="Windsor" fuel="Essence" speed="93" chest="103"
                                 srcBrand={Enus} altBrand="Enus" brand="Enus" train="RWD" price="169 999"/>
@@ -1200,12 +1300,26 @@ function PDM() {
                       {/* 180K to 190K */}
                       {/* 190K to 200K */}
                       {/* 200K + */}
+                      <Vehicles class="sports" name="Jester" places="2" src={Jester} alt="Jester" fuel="Essence" speed="98" chest="80"
+                                srcBrand={Dinka} altBrand="Dinka" brand="Dinka" train="AWD" price="207 995"/>
                       <Vehicles class="suvs" name="Toros" places="4" src={Toros} alt="Toros" fuel="Essence" speed="96" chest="80"
                                 srcBrand={Pegassi} altBrand="Pegassi" brand="Pegassi" train="AWD" price="208 299"/>
+                      <Vehicles class="sports" name="Coquette D10" places="2" src={CoquetteD10} alt="Coquette D10" fuel="Essence" speed="99" chest="80"
+                                srcBrand={Invetero} altBrand="Invetero" brand="Invetero" train="RWD" price="210 960"/>
+                      <Vehicles class="sports" name="Comet SR" places="2" src={CometSR} alt="Comet SR" fuel="Essence" speed="97" chest="80"
+                                srcBrand={Pfister} altBrand="Pfister" brand="Pfister" train="RWD" price="211 990"/>
                       <Vehicles class="coupe" name="Champion" places="2" src={Champion} alt="Champion" fuel="Essence" speed="100" chest="86"
                                 srcBrand={Dewbauchee} altBrand="Dewbauchee" brand="Dewbauchee" train="RWD" price="213 965"/>
                       <Vehicles class="sportsclassic" name="Infernus Classic" places="2" src={InfernusClassic} alt="Infernus Classic" fuel="Essence" speed="93" chest="74"
                                 srcBrand={Pegassi} altBrand="Pegassi" brand="Pegassi" train="RWD" price="213 965"/>
+                      <Vehicles class="sports" name="Itali GTO" places="2" src={ItaliGTO} alt="Itali GTO" fuel="Essence" speed="100" chest="80"
+                                srcBrand={Grotti} altBrand="Grotti" brand="Grotti" train="AWD" price="213 990"/>
+                      <Vehicles class="sports" name="Comet S2" places="2" src={CometS2} alt="Comet S2" fuel="Essence" speed="97" chest="80"
+                                srcBrand={Pfister} altBrand="Pfister" brand="Pfister" train="RWD" price="214 970"/>
+                      <Vehicles class="sports" name="Growler" places="2" src={Growler} alt="Growler" fuel="Essence" speed="95" chest="80"
+                                srcBrand={Pfister} altBrand="Pfister" brand="Pfister" train="RWD" price="214 995"/>
+                      <Vehicles class="sports" name="Itali RSX" places="2" src={ItaliRSX} alt="Itali RSX" fuel="Essence" speed="101" chest="80"
+                                srcBrand={Grotti} altBrand="Grotti" brand="Grotti" train="AWD" price="215 999"/>
                       <Vehicles class="super" name="Penetrator" places="2" src={Penetrator} alt="Penetrator" fuel="Essence" speed="99" chest="50"
                                 srcBrand={Ocelot} altBrand="Ocelot" brand="Ocelot" train="AWD" price="216 997"/>
                       <Vehicles class="super" name="Infernus" places="2" src={Infernus} alt="Infernus" fuel="Essence" speed="93" chest="50"
@@ -1232,6 +1346,8 @@ function PDM() {
                                 srcBrand={Pegassi} altBrand="Pegassi" brand="Pegassi" train="AWD" price="226 990"/>
                       <Vehicles class="super" name="Tempesta" places="2" src={Tempesta} alt="Tempesta" fuel="Essence" speed="98" chest="50"
                                 srcBrand={Pegassi} altBrand="Pegassi" brand="Pegassi" train="AWD" price="227 999"/>
+                      <Vehicles class="sports" name="Comet S2 Cabrio" places="2" src={CometS2Cabrio} alt="Comet S2 Cabrio" fuel="Essence" speed="97" chest="80"
+                                srcBrand={Pfister} altBrand="Pfister" brand="Pfister" train="RWD" price="228 970"/>
                       <Vehicles class="super" name="Nero Custom" places="2" src={NeroCustom} alt="Nero Custom" fuel="Essence" speed="99" chest="50"
                                 srcBrand={Truffade} altBrand="Truffade" brand="Truffade" train="AWD" price="228 990"/>
                       <Vehicles class="super" name="ETR1" places="2" src={ETR1} alt="ETR1" fuel="Essence" speed="98" chest="50"
@@ -1274,6 +1390,8 @@ function PDM() {
                                 srcBrand={Progen} altBrand="Progen" brand="Progen" train="RWD" price="239 999"/>
                       <Vehicles class="sedan" name="Stafford" places="4" src={Stafford} alt="Stafford" fuel="Essence" speed="75" chest="68"
                                 srcBrand={Enus} altBrand="Enus" brand="Enus" train="RWD" price="240 000"/>
+                      <Vehicles class="sports" name="CometSafari" places="2" src={CometSafari} alt="CometSafari" fuel="Essence" speed="95" chest="80"
+                                srcBrand={Pfister} altBrand="Pfister" brand="Pfister" train="AWD" price="240 000"/>
                       <Vehicles class="super" name="Krieger" places="2" src={Krieger} alt="Krieger" fuel="Essence" speed="100" chest="50"
                                 srcBrand={Benefactor} altBrand="Benefactor" brand="Benefactor" train="AWD" price="242 995"/>
                       <Vehicles class="super" name="Taipan" places="2" src={Taipan} alt="Taipan" fuel="Essence" speed="106" chest="50"
