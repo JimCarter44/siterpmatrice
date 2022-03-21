@@ -3,7 +3,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faArrowUp} from "@fortawesome/free-solid-svg-icons";
 import $ from "jquery";
 
-function ToTop () {
+function ToTop (props) {
     $( function () {
         let toTop = $(".toTop");
         toTop.click(function () {
@@ -11,12 +11,9 @@ function ToTop () {
             $('html').animate({scrollTop:0}, 1000);
         });
     });
-    const topStyle = {
-        backgroundColor: "#760000",
-        border: "5px solid #841f1f",
-    }
+
     return(
-        <div className="toTop" style={topStyle}>
+        <div className="toTop" id={props.id}>
             <FontAwesomeIcon icon={faArrowUp} />
         </div>
     );

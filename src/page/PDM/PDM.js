@@ -683,7 +683,7 @@ function PDM() {
               <img src={imgPDMHead} alt="PDM brand"/>
           </div>
           <div className="rentalPDM">
-              <ToTop />
+              <ToTop id={"topPDM"}/>
               <div className="filterDisplay">
                   <div className="headFilterDisplay">
                       <h1>Notre catalogue</h1>
