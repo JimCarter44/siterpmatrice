@@ -1,7 +1,8 @@
 .rentalPDM {
     background-image: url("../../img/bgPDM.png");
-    background-repeat: no-repeat;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
     padding: 0 20%;
     cursor: default;
 }
@@ -12,17 +13,17 @@
     background-image: url("../../img/imgPDMHeadBackground.png");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 500px;
     overflow: hidden;
 }
 
 .headPDM img {
-    height: 500px;
+    width: 100%;
 }
 
 .filterDisplay {
     min-height: 100vh;
     margin: 0;
+    min-width: 500px;
     background-color: #260101;
     border: 3px solid #841f1f;
     z-index: 10;

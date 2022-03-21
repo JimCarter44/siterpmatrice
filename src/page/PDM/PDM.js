@@ -3,6 +3,7 @@ import Navigator from "../../component/Navigator/Navigator"
 import $ from "jquery";
 import imgPDMHead from "../../img/imgPDMHead.png"
 import Vehicles from "../../component/Vehicles/Vehicles"
+import ToTop from "../../component/ToTop/ToTop"
 
 import Ocelot from "../../img/pdmImg/ocelot.png"
 import Pedal from "../../img/pdmImg/PedalandMetal.png"
@@ -679,9 +680,10 @@ function PDM() {
       <div>
           <Navigator value="www.premuimdeluxemotorsport.info" />
           <div className="headPDM">
-              <img src={imgPDMHead} alt=""/>
+              <img src={imgPDMHead} alt="PDM brand"/>
           </div>
           <div className="rentalPDM">
+              <ToTop />
               <div className="filterDisplay">
                   <div className="headFilterDisplay">
                       <h1>Notre catalogue</h1>
