@@ -1,11 +1,13 @@
 import './RoadLaw.css';
 import UnitedStateOfSanAdreas from '../../img/sansandreas.png';
 import Gouvernment from "../../component/Gouvernment/Gouvernment";
+import ToTop from "../../component/ToTop/ToTop";
 
 function RoadLaw() {
     return(
         <div>
             <Gouvernment />
+            <ToTop id={"topRoadLaw"}/>
             <div className="backgroundRoadLaw">
                 <div className="roadLaw">
                     <h1>CODE DE LA ROUTE</h1>

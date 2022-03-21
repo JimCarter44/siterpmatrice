@@ -1,11 +1,13 @@
 import './UnitedStateConstitution.css';
 import UnitedStateOfAmerica from '../../img/etats-unis.png';
 import Gouvernment from "../../component/Gouvernment/Gouvernment";
+import ToTop from "../../component/ToTop/ToTop";
 
 function UnitedStateConstitution() {
     return(
         <div>
             <Gouvernment />
+            <ToTop id={"topConstitutionUS"}/>
             <div className="backgroundUSConstitution">
                 <div className="usConstitution">
                     <h1>CONSTITUTION<br/>DES ÉTATS-UNIS D'AMÉRIQUE</h1>

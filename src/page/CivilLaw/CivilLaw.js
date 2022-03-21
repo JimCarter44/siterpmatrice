@@ -1,11 +1,13 @@
 import './CivilLaw.css';
 import UnitedStateOfSanAdreas from '../../img/sansandreas.png';
 import Gouvernment from "../../component/Gouvernment/Gouvernment";
+import ToTop from "../../component/ToTop/ToTop";
 
 function CivilLaw() {
     return(
         <div>
             <Gouvernment />
+            <ToTop id={"topCivilLaw"}/>
             <div className="backgroundCivilLaw">
                 <div className="civilLaw">
                     <h1>CODE CIVIL<br/>DE L'ETAT DE SAN ANDREAS</h1>
