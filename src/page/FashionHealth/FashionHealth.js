@@ -1,4 +1,4 @@
-import './FashionHealth.css';
+import '../MoneyService/MoneyService.css';
 import Navigator from "../../component/Navigator/Navigator";
 import Header from "../../component/Header/Header";
 import {Link} from "react-router-dom";

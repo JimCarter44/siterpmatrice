@@ -2,17 +2,37 @@ import './Navigator.css';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faCaretLeft, faCaretRight, faHome} from "@fortawesome/free-solid-svg-icons";
 import {Link} from "react-router-dom";
-/*
-let searchBarValue = document.getElementsByClassName('searchBar');
-let pdmLink = document.getElementsByClassName('pdmLink');
-let pdmURL = "www.premuimdeluxemotorsport.com";
-searchBarValue.on('change', function () {
-    if (searchBarValue.valueOf() === pdmURL.valueOf()) {
-        console.log(pdmLink);
-    }
-});*/
+import $ from "jquery";
 
 function Navigator(props) {
+    $(function () {
+        let searchBarValue = $(".searchBar");
+        let pdmURL = "www.premuimdeluxemotorsport.info";
+        let homeURL = "www.eyefind.info";
+        searchBarValue.change(function () {
+            console.log("Testchange");
+            console.log(pdmURL);
+            console.log(searchBarValue.val());
+            if (searchBarValue.val() === pdmURL) {
+                console.log("validation");
+                window.location.href = "/pdm";
+            }
+            else if (searchBarValue.val() === homeURL) {
+                console.log("validation");
+                window.location.href = "/";
+            }
+        });
+    });
+    $(function () {
+        let back = $(".backButton");
+        back.click(function () {
+            window.history.back();
+        })
+        let next = $(".nextButton");
+        next.click(function () {
+            window.history.forward();
+        })
+    });
     return(
         <div className="searchTopBar">
             <div className="bnButton">
