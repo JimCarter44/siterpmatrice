@@ -42,8 +42,7 @@ function Home() {
                     <Link to="/digitalden"><img src={EncartDigitalDen} alt="Digital Den" className="randomInsert"/></Link>
                     <Link to="/luckyplucker"><img src={EncartLuckyPlucker} alt="Lucky Plucker" className="randomInsert"/></Link>
                     <Link to="/youtool"><img src={EncartYouTool} alt="YouTool" className="randomInsert"/></Link>
-                </div>
-                <div className="randomInsertZone">
+
                     <Link to="/doncountrystore"><img src={EncartDonCountryStorel} alt="DonCountryStore" className="randomInsert"/></Link>
                     <Link to="/seaword"><img src={EncartSeaWord} alt="SeaWord" className="randomInsert"/></Link>
                     <Link to="/upnatom"><img src={EncartUpNAtom} alt="UpNAtom" className="randomInsert"/></Link>

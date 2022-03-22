@@ -1,11 +1,18 @@
 .homeDisplay {
     padding: 30px 15%;
+    max-width: 1344px;
+    margin: auto;
 }
 
 .randomPub {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pubBorder {
+    margin: 5px 10px;
 }
 
 .pubBorder p {
@@ -21,8 +28,8 @@
 
 .picturePub {
     background-color: #488bc2;
-    width: 396px;
-    height: 146px;
+    max-width: 396px;
+    max-height: 146px;
     padding: 2px;
 }
 
@@ -35,6 +42,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding-top: 20px;
 }
 
@@ -43,6 +51,7 @@
     height: 150px;
     width: 250px;
     padding: 2px;
+    margin: 10px 0;
 }
 
 .randomInsert:hover {
