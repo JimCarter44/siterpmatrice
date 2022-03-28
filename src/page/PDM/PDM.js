@@ -471,7 +471,7 @@ function PDM() {
         let suv = $(".suvs");
         let offroad = $(".offroad");
         let coupe = $(".coupe");
-        let sport = $(".sport");
+        let sport = $(".sports");
         let sportclassic = $(".sportsclassic");
         let supers = $(".super");
         let van = $(".vans");
@@ -555,20 +555,6 @@ function PDM() {
                 compact.css("display", "none");
                 sedan.css("display", "block");
                 suv.css("display", "none");
-                offroad.css("display", "none");
-                coupe.css("display", "none");
-                sport.css("display", "none");
-                sportclassic.css("display", "none");
-                supers.css("display", "none");
-                van.css("display", "none");
-            }
-            else if (filterType.val() === "suv") {
-                muscle.css("display", "none");
-                cycle.css("display", "none");
-                motorcycle.css("display", "none");
-                compact.css("display", "none");
-                sedan.css("display", "none");
-                suv.css("display", "block");
                 offroad.css("display", "none");
                 coupe.css("display", "none");
                 sport.css("display", "none");
