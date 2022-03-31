@@ -39,15 +39,15 @@ function Home() {
                 <div className="randomInsertZone">
                     <Link to="/gouvernment/civillaw"><img src={EncartLaw} alt="Recueil des lois de l'état de San Andreas" className="randomInsert"/></Link>
                     <Link to="/pdm"><img src={EncartPDM} alt="Concession PDM" className="randomInsert"/></Link>
-                    <Link to="/digitalden"><img src={EncartDigitalDen} alt="Digital Den" className="randomInsert"/></Link>
-                    <Link to="/luckyplucker"><img src={EncartLuckyPlucker} alt="Lucky Plucker" className="randomInsert"/></Link>
+                    <Link to="/comingsoon"><img src={EncartDigitalDen} alt="Digital Den" className="randomInsert"/></Link>
+                    <Link to="/comingsoon"><img src={EncartLuckyPlucker} alt="Lucky Plucker" className="randomInsert"/></Link>
                     <Link to="/youtool"><img src={EncartYouTool} alt="YouTool" className="randomInsert"/></Link>
 
                     <Link to="/doncountrystore"><img src={EncartDonCountryStorel} alt="DonCountryStore" className="randomInsert"/></Link>
                     <Link to="/seaword"><img src={EncartSeaWord} alt="SeaWord" className="randomInsert"/></Link>
-                    <Link to="/upnatom"><img src={EncartUpNAtom} alt="UpNAtom" className="randomInsert"/></Link>
-                    <Link to="/beanmachine"><img src={EncartBeanMachine} alt="BeanMachine" className="randomInsert"/></Link>
-                    <Link to="/fleeca"><img src={EncartFleeca} alt="Fleeca" className="randomInsert"/></Link>
+                    <Link to="/comingsoon"><img src={EncartUpNAtom} alt="UpNAtom" className="randomInsert"/></Link>
+                    <Link to="/comingsoon"><img src={EncartBeanMachine} alt="BeanMachine" className="randomInsert"/></Link>
+                    <Link to="/comingsoon"><img src={EncartFleeca} alt="Fleeca" className="randomInsert"/></Link>
                 </div>
             </div>
         </div>

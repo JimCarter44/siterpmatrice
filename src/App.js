@@ -20,6 +20,7 @@ import RestaurantBar from "./page/RestaurantBar/RestaurantBar";
 import MediaEntertainment from "./page/MediaEntertainment/MediaEntertainment";
 import Fleeca from "./page/Fleeca/Fleeca";
 import LSToday from "./page/LSToday/LSToday";
+import ComingSoon from "./page/ComingSoon/ComingSoon";
 
 function App() {
   return (
@@ -45,6 +46,7 @@ function App() {
           <Route path="/mediaentertainement" element={<MediaEntertainment />} />
           <Route path="/fleeca" element={<Fleeca />} />
           <Route path="/lstoday" element={<LSToday/>} />
+          <Route path="/comingsoon" element={<ComingSoon/>} />
       </Routes>
     </BrowserRouter>
   );

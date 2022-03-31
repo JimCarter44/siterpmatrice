@@ -20,7 +20,7 @@ function MoneyService() {
                         <p>Cette phrase peux etre lourde de sens pour les nouveaux arrivants dans notre belle contrée;<br/>c'est pourquoi le gouvernement de San Andréas vous offre ce recueil des lois en vigueur dans notre état.<br/>Vous ne pourrais pas vous plaindre de ne pas avoir été prévenus...</p>
                     </div>
                 </Link>
-                <Link to="/fleeca">
+                <Link to="/comingsoon">
                     <img src={EncartFleeca} alt="Fleeca" className="randomInsert"/>
                     <div className="pageExempleDescript">
                         <h3>Fleeca Bank of San Andreas</h3>
@@ -28,7 +28,7 @@ function MoneyService() {
                         <p>Avec la Fleeca Bank of San Andreas vous vous sentirez comme en "famille"</p>
                     </div>
                 </Link>
-                <Link to="/">
+                <Link to="/comingsoon">
                     <img src={EncartProp43} alt="proposition 43" className="randomInsert"/>
                     <div className="pageExempleDescript">
                         <h3>Proposition 43</h3>

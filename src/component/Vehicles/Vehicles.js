@@ -22,7 +22,7 @@ function Vehicles (props) {
                     </div>
                     <div className="rightBlock">
                         <p>Vmax Moy : {props.speed} Mph</p>
-                        <p>Coffre : {props.chest} Kg</p>
+                        <p>Coffre : {props.chest} L / {props.site} Places</p>
                     </div>
                 </div>
                 <div className="lastDetails">

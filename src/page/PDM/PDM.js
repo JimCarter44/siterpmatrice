@@ -691,7 +691,7 @@ function PDM() {
                   </div>
                   <div id="catalog">
                       {/* 0 to 10K */}
-                      <Vehicles class="cycle" name="BMX" places="1" src={BMX} alt="BMX" fuel="Manuel" speed="31" chest="0"
+                      <Vehicles class="cycle" name="BMX" places="1" src={BMX} alt="BMX" fuel="Manuel" speed="31" site="0" chest="0"
                                 srcBrand={Pedal} altBrand="PedalAndMetal" train="RWD" price="690"/>
                       <Vehicles class="cycle" name="Cruiser" places="1" src={Cruiser} alt="Cruiser" fuel="Manuel" speed="28" chest="0"
                                 srcBrand={Pedal} altBrand="PedalAndMetal" train="RWD" price="790"/>

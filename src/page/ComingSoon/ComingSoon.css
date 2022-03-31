@@ -1,0 +1,18 @@
+#coming {
+    background-color: #488bc2;
+    width: 99vw;
+    height: 99vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#coming img {
+    width: 400px;
+}
+
+#coming h1 {
+    color: #f0f0f0;
+    font-size: 4em;
+}
