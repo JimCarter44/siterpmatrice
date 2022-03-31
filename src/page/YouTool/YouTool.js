@@ -50,16 +50,16 @@ function YouTool() {
                     </div>
                 </div>
                 <div id="circulRight">
-                    <div className="encartProduct">
-                        <img src={Talkie} alt="talkie"/>
-                        <div className="descriptProduct">
+                    <div className="encartProduct1">
+                        <div className="descriptProduct1">
+                            <img src={Talkie} alt="talkie"/>
                             <h4>
                                 249$
                             </h4>
-                            <p>
-                                <strong>RADIO</strong><br/>Radio de communication par ondes<br/> 2 fréquences <br/>Scan auto<br/>Prise casque<br/>Portée 2km
-                            </p>
                         </div>
+                        <p>
+                            <strong>RADIO</strong><br/>Radio de communication par ondes<br/> 2 fréquences <br/>Scan auto<br/>Prise casque<br/>Portée 2km
+                        </p>
                     </div>
                     <div className="encartProduct">
                         <img src={Talkie} alt="talkie"/>
@@ -94,16 +94,16 @@ function YouTool() {
                             </p>
                         </div>
                     </div>
-                    <div className="encartProduct">
-                        <img src={Talkie} alt="talkie"/>
-                        <div className="descriptProduct">
+                    <div className="encartProduct1">
+                        <div className="descriptProduct1">
+                            <img src={Talkie} alt="talkie"/>
                             <h4>
                                 249$
                             </h4>
-                            <p>
-                                <strong>RADIO</strong><br/>Radio de communication par ondes<br/> 2 fréquences <br/>Scan auto<br/>Prise casque<br/>Portée 2km
-                            </p>
                         </div>
+                        <p>
+                            <strong>RADIO</strong><br/>Radio de communication par ondes<br/> 2 fréquences <br/>Scan auto<br/>Prise casque<br/>Portée 2km
+                        </p>
                     </div>
                     <div className="encartProduct">
                         <img src={Talkie} alt="talkie"/>
@@ -138,16 +138,16 @@ function YouTool() {
                             </p>
                         </div>
                     </div>
-                    <div className="encartProduct">
-                        <img src={Talkie} alt="talkie"/>
-                        <div className="descriptProduct">
+                    <div className="encartProduct1">
+                        <div className="descriptProduct1">
+                            <img src={Talkie} alt="talkie"/>
                             <h4>
                                 249$
                             </h4>
-                            <p>
-                                <strong>RADIO</strong><br/>Radio de communication par ondes<br/> 2 fréquences <br/>Scan auto<br/>Prise casque<br/>Portée 2km
-                            </p>
                         </div>
+                        <p>
+                            <strong>RADIO</strong><br/>Radio de communication par ondes<br/> 2 fréquences <br/>Scan auto<br/>Prise casque<br/>Portée 2km
+                        </p>
                     </div>
                     <div className="encartProduct">
                         <img src={Talkie} alt="talkie"/>
@@ -160,16 +160,16 @@ function YouTool() {
                             </p>
                         </div>
                     </div>
-                    <div className="encartProduct">
-                        <img src={Talkie} alt="talkie"/>
-                        <div className="descriptProduct">
+                    <div className="encartProduct1">
+                        <div className="descriptProduct1">
+                            <img src={Talkie} alt="talkie"/>
                             <h4>
                                 249$
                             </h4>
-                            <p>
-                                <strong>RADIO</strong><br/>Radio de communication par ondes<br/> 2 fréquences <br/>Scan auto<br/>Prise casque<br/>Portée 2km
-                            </p>
                         </div>
+                        <p>
+                            <strong>RADIO</strong><br/>Radio de communication par ondes<br/> 2 fréquences <br/>Scan auto<br/>Prise casque<br/>Portée 2km
+                        </p>
                     </div>
                     <div className="encartProduct">
                         <img src={Talkie} alt="talkie"/>
