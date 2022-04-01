@@ -21,6 +21,7 @@ import MediaEntertainment from "./page/MediaEntertainment/MediaEntertainment";
 import Fleeca from "./page/Fleeca/Fleeca";
 import LSToday from "./page/LSToday/LSToday";
 import ComingSoon from "./page/ComingSoon/ComingSoon";
+import FourHundredFour from "./page/404/404";
 
 function App() {
   return (
@@ -47,6 +48,7 @@ function App() {
           <Route path="/fleeca" element={<Fleeca />} />
           <Route path="/lstoday" element={<LSToday/>} />
           <Route path="/comingsoon" element={<ComingSoon/>} />
+          <Route path="/fourhundredfour" element={<FourHundredFour/>} />
       </Routes>
     </BrowserRouter>
   );
