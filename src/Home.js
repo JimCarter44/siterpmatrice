@@ -41,7 +41,7 @@ function Home() {
                     <Link to="/pdm"><img src={EncartPDM} alt="Concession PDM" className="randomInsert"/></Link>
                     <Link to="/comingsoon"><img src={EncartDigitalDen} alt="Digital Den" className="randomInsert"/></Link>
                     <Link to="/comingsoon"><img src={EncartLuckyPlucker} alt="Lucky Plucker" className="randomInsert"/></Link>
-                    <Link to="/comingsoon"><img src={EncartYouTool} alt="YouTool" className="randomInsert"/></Link>
+                    <Link to="/youtool"><img src={EncartYouTool} alt="YouTool" className="randomInsert"/></Link>
 
                     <Link to="/doncountrystore"><img src={EncartDonCountryStorel} alt="DonCountryStore" className="randomInsert"/></Link>
                     <Link to="/seaword"><img src={EncartSeaWord} alt="SeaWord" className="randomInsert"/></Link>
