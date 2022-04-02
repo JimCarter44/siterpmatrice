@@ -769,6 +769,8 @@ function PDM() {
                                 srcBrand={Zirconium} altBrand="Zirconium" brand="Zirconium" train="AWD" price="7 892"/>
                       <Vehicles class="offroad" name="Blazer" places="1" src={Blazer} alt="Blazer" fuel="Essence" speed="75" site="1" chest="1000"
                                 srcBrand={Nagasaki} altBrand="Nagasaki" brand="Nagasaki" train="AWD" price="7 980"/>
+                      <Vehicles class="compact" name="Club" places="2" src={Club} alt="Club" fuel="Essence" speed="87" site="3" chest="25000"
+                                srcBrand={BF} altBrand="BF" brand="BF" train="FWD" price="8 980"/>
                       <Vehicles class="offroad" name="Blazer Sport" places="1" src={BlazerSport} alt="Blazer Sport" fuel="Essence" speed="78" site="1" chest="1000"
                                 srcBrand={Nagasaki} altBrand="Nagasaki" brand="Nagasaki" train="AWD" price="9 250"/>
                       <Vehicles class="compact" name="Asbo" places="2" src={Asbo} alt="Asbo" fuel="Essence" speed="78" site="6" chest="30000"
@@ -818,8 +820,6 @@ function PDM() {
                                 srcBrand={Vapid} altBrand="Vapid" brand="Vapid" train="AWD" price="13 999"/>
                       <Vehicles class="motorcycles" name="Daemon Custom" places="2" src={DaemonCustom} alt="Daemon Custom" fuel="Essence" speed="84" site="1" chest="1000"
                                 srcBrand={Western} altBrand="Western" brand="Western" train="RWD" price="14 190"/>
-                      <Vehicles class="compact" name="Club" places="2" src={Club} alt="Club" fuel="Essence" speed="87" site="3" chest="25000"
-                                srcBrand={BF} altBrand="BF" brand="BF" train="FWD" price="14 980"/>
                       <Vehicles class="offroad" name="Bifta" places="2" src={Bifta} alt="Bifta" fuel="Essence" speed="70" site="0" chest="0"
                                 srcBrand={BF} altBrand="BF" brand="BF" train="RWD" price="14 990"/>
                       <Vehicles class="motorcycles" name="Esskey" places="2" src={Esskey} alt="Esskey" fuel="Essence" speed="90" site="1" chest="1000"
@@ -846,6 +846,8 @@ function PDM() {
                                 srcBrand={Weeny} altBrand="Weeny" brand="Weeny" train="FWD" price="17 592"/>
                       <Vehicles class="vans" name="Paradise" places="4" src={Paradise} alt="Paradise" fuel="Essence" speed="81" site="30" chest="400000"
                                 srcBrand={Bravado} altBrand="Bravado" brand="Bravado" train="RWD" price="17 980"/>
+                      <Vehicles class="suvs" name="Seminole Frontier" places="4" src={SeminoleFrontier} alt="Seminole Frontier" fuel="Essence" speed="81" site="10" chest="150000"
+                                srcBrand={Canis} altBrand="Canis" brand="Canis" train="AWD" price="17 980"/>
                       <Vehicles class="suvs" name="Landstalker" places="4" src={Landstalker} alt="Landstalker" fuel="Essence" speed="84" site="13" chest="80000"
                                 srcBrand={Dundreary} altBrand="Dundreary" brand="Dundreary" train="AWD" price="17 990"/>
                       <Vehicles class="compact" name="Blista" places="2" src={Blista} alt="Blista" fuel="Essence" speed="84" site="5" chest="35000"
@@ -992,8 +994,6 @@ function PDM() {
                                 srcBrand={Pegassi} altBrand="Pegassi" brand="Pegassi" train="RWD" price="37 960"/>
                       <Vehicles class="motorcycles" name="Defiler" places="1" src={Defiler} alt="Defiler" fuel="Essence" speed="92" site="1" chest="1000"
                                 srcBrand={Shitzu} altBrand="Shitzu" brand="Shitzu" train="RWD" price="37 979"/>
-                      <Vehicles class="suvs" name="Seminole Frontier" places="4" src={SeminoleFrontier} alt="Seminole Frontier" fuel="Essence" speed="81" site="10" chest="150000"
-                                srcBrand={Canis} altBrand="Canis" brand="Canis" train="AWD" price="37 980"/>
                       <Vehicles class="motorcycles" name="Bati 801 RR" places="2" src={Bati801RR} alt="Bati 801 RR" fuel="Essence" speed="94" site="1" chest="1000"
                                 srcBrand={Pegassi} altBrand="Pegassi" brand="Pegassi" train="RWD" price="38 490"/>
                       <Vehicles class="motorcycles" name="Carbon RS" places="2" src={CarbonRS} alt="Carbon RS" fuel="Essence" speed="90" site="1" chest="1000"
@@ -1015,6 +1015,8 @@ function PDM() {
                                 srcBrand={Western} altBrand="Western" brand="Western" train="RWD" price="40 590"/>
                       <Vehicles class="muscle" name="Yosemite" places="2" src={Yosemite} alt="Yosemite" fuel="Essence" speed="85" site="18" chest="140000"
                                 srcBrand={Declasse} altBrand="Declasse" brand="Declasse" train="RWD" price="40 770"/>
+                      <Vehicles class="sports" name="Futo GTX" places="2" src={FutoGTX} alt="Futo GTX" fuel="Essence" speed="85" site="3" chest="18000"
+                                srcBrand={Karin} altBrand="Karin" brand="Karin" train="RWD" price="40 997"/>
                       <Vehicles class="motorcycles" name="Thrust" places="2" src={Thrust} alt="Thrust" fuel="Essence" speed="95" site="1" chest="1000"
                                 srcBrand={Dinka} altBrand="Dinka" brand="Dinka" train="RWD" price="40 999"/>
                       <Vehicles class="motorcycles" name="Vindicator" places="2" src={Vindicator} alt="Vindicator" fuel="Essence" speed="92" site="1" chest="1000"
@@ -1219,8 +1221,6 @@ function PDM() {
                                 srcBrand={Annis} altBrand="Annis" brand="Annis" train="AWD" price="80 991"/>
                       <Vehicles class="sports" name="Khamelion" places="2" src={Khamelion} alt="Khamelion" fuel="Electric" speed="87" site="4" chest="20000"
                                 srcBrand={Hijak} altBrand="Hijak" brand="Hijak" train="RWD" price="80 995"/>
-                      <Vehicles class="sports" name="Futo GTX" places="2" src={FutoGTX} alt="Futo GTX" fuel="Essence" speed="85" site="3" chest="18000"
-                                srcBrand={Karin} altBrand="Karin" brand="Karin" train="RWD" price="80 997"/>
                       <Vehicles class="sports" name="ZR 350" places="2" src={ZR350} alt="ZR 350" fuel="Essence" speed="93" site="8" chest="55000"
                                 srcBrand={Annis} altBrand="Annis" brand="Annis" train="RWD" price="81 990"/>
                       <Vehicles class="sports" name="Furore GT" places="2" src={FuroreGT} alt="Furore GT" fuel="Essence" speed="94" site="0" chest="0"
