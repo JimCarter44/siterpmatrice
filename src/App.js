@@ -19,7 +19,7 @@ import MoneyService from "./page/MoneyService/MoneyService";
 import RestaurantBar from "./page/RestaurantBar/RestaurantBar";
 import MediaEntertainment from "./page/MediaEntertainment/MediaEntertainment";
 import Fleeca from "./page/Fleeca/Fleeca";
-import LSToday from "./page/LSToday/LSToday";
+import Weazel from "./page/Weazel/Weazel";
 import ComingSoon from "./page/ComingSoon/ComingSoon";
 import FourHundredFour from "./page/404/404";
 
@@ -46,7 +46,7 @@ function App() {
           <Route path="/restaurantbar" element={<RestaurantBar />} />
           <Route path="/mediaentertainement" element={<MediaEntertainment />} />
           <Route path="/fleeca" element={<Fleeca />} />
-          <Route path="/lstoday" element={<LSToday/>} />
+          <Route path="/weazel" element={<Weazel/>} />
           <Route path="/comingsoon" element={<ComingSoon/>} />
           <Route path="/fourhundredfour" element={<FourHundredFour/>} />
       </Routes>
