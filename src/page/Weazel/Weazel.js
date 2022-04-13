@@ -25,10 +25,7 @@ function Weazel() {
                 <nav>
                     <ul>
                         <li>Home</li>
-                        <li>Editions</li>
-                        <li>Annonces</li>
-                        <li>Services</li>
-                        <li>Mon Compte</li>
+                        <li>Intranet</li>
                     </ul>
                 </nav>
             </header>

@@ -11,6 +11,8 @@ header img {
 
 #dateToday {
     margin: auto 50px;
+    font-weight: bold;
+    font-size: 1.7em;
 }
 
 nav {
@@ -22,7 +24,7 @@ nav {
 nav ul {
     display: flex;
     flex-direction: row;
-    justify-content: right;
+    justify-content: center;
     list-style: none;
     margin: 0;
 }
