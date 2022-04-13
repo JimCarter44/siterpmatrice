@@ -10,6 +10,7 @@ import EncartSeaWord from "./img/EncartSeaWord.png";
 import EncartUpNAtom from "./img/EncartUpNAtom.jpg";
 import EncartBeanMachine from  "./img/EncartBeanMachine.jpg";
 import EncartFleeca from "./img/EncartFleeca.jpg";
+import EncartWeazel from "./img/EncartWeazel.jpg";
 import PubToilerCleaner from "./img/PubSponsoToilerCleaner.jpg";
 import PubProp43 from "./img/PubSponsoProp43.jpg";
 import PubEgoChaser from "./img/PubSponsoEgoChaser.jpg";
@@ -48,6 +49,7 @@ function Home() {
                     <Link to="/comingsoon"><img src={EncartUpNAtom} alt="UpNAtom" className="randomInsert"/></Link>
                     <Link to="/comingsoon"><img src={EncartBeanMachine} alt="BeanMachine" className="randomInsert"/></Link>
                     <Link to="/comingsoon"><img src={EncartFleeca} alt="Fleeca" className="randomInsert"/></Link>
+                    <Link to="/comingsoon"><img src={EncartWeazel} alt="Weazel News" className="randomInsert"/></Link>
                 </div>
             </div>
         </div>
