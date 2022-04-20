@@ -1,11 +1,8 @@
-#navUp{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 100px;
+#navWeazel {
+    text-align: center;
 }
-
-header img {
+#navWeazel img {
+    height: 100px;
     padding: 20px 0 20px 50px;
 }
 
@@ -40,3 +37,4 @@ nav li {
 nav li:hover {
     background-color: #00276a;
 }
+

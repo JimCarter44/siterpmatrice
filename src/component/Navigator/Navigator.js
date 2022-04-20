@@ -119,16 +119,18 @@ function Navigator(props) {
     });
     return(
         <div className="searchTopBar">
-            <div className="bnButton">
-                <div className="bnButtonOne">
-                    <FontAwesomeIcon icon={faCaretLeft} className="backButton"/>
+            <div className="actionButton">
+                <div className="bnButton">
+                    <div className="bnButtonOne">
+                        <FontAwesomeIcon icon={faCaretLeft} className="backButton"/>
+                    </div>
+                    <div className="bnButtonTwo">
+                        <FontAwesomeIcon icon={faCaretRight} className="nextButton"/>
+                    </div>
                 </div>
-                <div className="bnButtonTwo">
-                    <FontAwesomeIcon icon={faCaretRight} className="nextButton"/>
+                <div className="homeZone">
+                    <Link to="/"><FontAwesomeIcon icon={faHome} className="homeButton"/></Link>
                 </div>
-            </div>
-            <div className="homeZone">
-                <Link to="/"><FontAwesomeIcon icon={faHome} className="homeButton"/></Link>
             </div>
             <input type="text" className="searchBar" defaultValue={props.value}/>
         </div>

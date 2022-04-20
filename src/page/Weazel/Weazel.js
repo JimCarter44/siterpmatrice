@@ -16,19 +16,15 @@ function Weazel() {
     return(
         <div>
             <Navigator value="www.weazelnews.info" />
-            <header>
-                <div id="navUp">
-                    <img src={WeazelLogo} alt="Weazel"/>
-                    <div id="dateToday">
-                    </div>
-                </div>
+            <div id="navWeazel">
+                <img src={WeazelLogo} alt="Weazel"/>
                 <nav>
                     <ul>
                         <li>Home</li>
                         <li>Intranet</li>
                     </ul>
                 </nav>
-            </header>
+            </div>
             <div className="WeazelBody">
 
             </div>
