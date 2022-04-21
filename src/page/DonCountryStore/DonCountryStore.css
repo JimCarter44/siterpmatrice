@@ -45,3 +45,24 @@
     width: 5px;
     margin: 50px 0;
 }
+
+@media only screen and (max-width: 1170px) {
+    #verticalLineDCS {
+        display: none;
+    }
+    #backListRock {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media only screen and (max-width: 599px) {
+    #backListRock {
+        margin: 50px auto;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    #logoDCS {
+        width: 240px;
+        margin-top: 30px;
+    }
+}

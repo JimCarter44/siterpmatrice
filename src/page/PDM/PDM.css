@@ -80,3 +80,34 @@
     padding-top: 50px;
 }
 
+@media only screen and (max-width: 1460px) {
+    .rentalPDM {
+        padding: 0;
+    }
+}
+@media only screen and (max-width: 670px) {
+    .filterDisplay {
+        min-width: 0;
+        position: initial;
+    }
+    #filterTypePDM {
+        font-size: 1em;
+        width: auto;
+        height: auto;
+    }
+    .headFilterDisplay h1 {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 540px) {
+    #topPDM{
+        font-size: 1.5em;
+    }
+    .headFilterDisplay {
+        flex-direction: column;
+    }
+    .headFilterDisplay h1 {
+        margin-bottom: 10px;
+    }
+}
+

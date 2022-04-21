@@ -83,3 +83,28 @@
 .descriptProductSea h2 {
     margin: 0;
 }
+
+@media only screen and (max-width: 1160px) {
+    #mainSeaWord {
+        width: 90%;
+    }
+    #mainSeaWord h1 {
+        font-size: 2em;
+    }
+    .productLeft {
+        left: -30px;
+        width: auto;
+    }
+    .productRight {
+        right: -30px;
+    }
+    .descriptProductSea {
+        height: auto;
+        padding: 10px 0;
+    }
+    .productLeft img, .productRight img {
+        width: 200px;
+        height: 200px;
+        margin: auto;
+    }
+}

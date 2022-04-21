@@ -43,3 +43,18 @@
 .navGouvernment p:hover {
     cursor: pointer;
 }
+
+@media only screen and (max-width: 1396px) {
+    .navLinkCss {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 1340px) {
+    .topGouvernment img {
+        width: 100px;
+    }
+    .topGouvernment h1 {
+        font-size: 2em;
+    }
+}
